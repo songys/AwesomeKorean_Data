@@ -1,4 +1,4 @@
-# AwesomeKorean_Data
+# Awesome_Korean_Data
 한국어 데이터 세트 링크
 
 
