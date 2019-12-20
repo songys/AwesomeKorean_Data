@@ -11,19 +11,23 @@
 https://github.com/lovit/politician_news_dataset
 
 
+
 2. 네이버 뉴스 중 IT/과학 분야에서 50개를 선정해서 요약에 해당하는 문장을 태깅해둔 데이터셋                 
 https://github.com/theeluwin/sci-news-sum-kr-50
 
 
 
-2.한국어 개체명 정의 및 표지 표준화 기술보고서와 이를 기반으로 제작된 개체명 형태소 말뭉치                   
-https://github.com/kmounlp/NER      
+3.한국어 개체명 정의 및 표지 표준화 기술보고서와 이를 기반으로 제작된 개체명 형태소 말뭉치                   
+https://github.com/kmounlp/NER
+
 
 4.KoreanNERCorpus(개체명 말뭉치)
-https://github.com/machinereading/KoreanNERCorpus 
+https://github.com/machinereading/KoreanNERCorpus
+
 
 5.Naver sentiment movie corpus v1.0(네이버 악평과 선평을 구분)             
 https://github.com/e9t/nsmc
+
 
 
 6.Naver sentiment movie corpus v1.0를 다운 받아서   
