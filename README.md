@@ -12,6 +12,7 @@ https://github.com/lovit/politician_news_dataset
 
 
 
+
 2. 네이버 뉴스 중 IT/과학 분야에서 50개를 선정해서 요약에 해당하는 문장을 태깅해둔 데이터셋                 
 https://github.com/theeluwin/sci-news-sum-kr-50
 
