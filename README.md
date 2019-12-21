@@ -43,3 +43,7 @@ https://github.com/songys/Chatbot_data
 
 9.한영/한불 벙렬말뭉치(번역용)                        
 https://github.com/songys/korean-parallel-corpora
+
+10.[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음
+
+https://github.com/akngs/petitions
