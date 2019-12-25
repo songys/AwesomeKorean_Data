@@ -42,4 +42,4 @@ https://github.com/songys/Chatbot_data
 
 
 9.한영/한불 벙렬말뭉치(번역용)                        
-https://github.com/songys/korean-parallel-corpora
+https://github.com/j-min/korean-parallel-corpora
