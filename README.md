@@ -49,5 +49,5 @@ https://github.com/songys/korean-parallel-corpora
 
 https://github.com/akngs/petitions
 
-11. 공공데이터포털 뉴스빅데이터 분석 정보(뉴스데이터베이스 'Kinds' 기반 분석 자료, 기사 메타정보, 인코딩이 utf-16으로 되어 있음)
+11. 공공데이터포털 뉴스빅데이터 분석 정보(뉴스데이터베이스 'Kinds' 기반 분석 자료, 기사 메타정보)
 https://www.data.go.kr/dataset/15012945/fileData.do
