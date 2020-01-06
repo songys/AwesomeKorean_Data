@@ -41,7 +41,7 @@ https://github.com/machinereading/KoreanNERCorpus
 https://github.com/songys/Chatbot_data
 
 
-9.한영/한불 벙렬말뭉치(번역용)                        
+9.한영/한불 병렬말뭉치(번역용)                        
 
 https://github.com/j-min/korean-parallel-corpora
 
@@ -49,5 +49,5 @@ https://github.com/j-min/korean-parallel-corpora
 
 https://github.com/akngs/petitions
 
-11. 공공데이터포털 뉴스빅데이터 분석 정보(뉴스데이터베이스 'Kinds' 기반 분석 자료, 기사 메타정보)
+11.공공데이터포털 뉴스빅데이터 분석 정보(뉴스데이터베이스 'Kinds' 기반 분석 자료, 기사 메타정보)
 https://www.data.go.kr/dataset/15012945/fileData.do
