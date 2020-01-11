@@ -14,40 +14,47 @@ https://github.com/lovit/politician_news_dataset
 https://github.com/theeluwin/sci-news-sum-kr-50
 
 
-3.Naver sentiment movie corpus v1.0(네이버 악평과 선평을 구분해 놓은 데이터)                     
+3.영화추천시스템을 위한 데이터 세트
+https://github.com/lovit/kmrd
+
+
+4.Naver sentiment movie corpus v1.0(네이버 악평과 선평을 구분해 놓은 데이터)                     
 https://github.com/e9t/nsmc
 
 
-4.Naver sentiment movie corpus v1.0를 다운 받아서       
+5.Naver sentiment movie corpus v1.0를 다운 받아서       
 감성분석 레이블링 상세화한 데이터                  
 label : 'toxic', 'obscene', 'threat', 'insult', 'identity_hate'                   
 
 https://github.com/songys/Toxic_comment_data
 
 
-5.Paired Question(질문쌍이 같은 질문인지 다른 질문인지 구별하는 데이터)                                      
+6.Paired Question(질문쌍이 같은 질문인지 다른 질문인지 구별하는 데이터)                                      
 https://github.com/songys/Question_pair
 
 
-6.한국어 개체명 정의 및 표지 표준화 기술보고서와 이를 기반으로 제작된 개체명 형태소 말뭉치                              
+7.한국어 개체명 정의 및 표지 표준화 기술보고서와 이를 기반으로 제작된 개체명 형태소 말뭉치                              
 https://github.com/kmounlp/NER
 
 
-7.KoreanNERCorpus(개체명 말뭉치)             
+8.KoreanNERCorpus(개체명 말뭉치)             
 https://github.com/machinereading/KoreanNERCorpus
 
 
-8.챗봇용 대화셋                          
+9.챗봇용 대화셋                          
 https://github.com/songys/Chatbot_data
 
 
-9.한영/한불 병렬말뭉치(번역용)                        
+10.한영/한불 병렬말뭉치(번역용)                        
 
 https://github.com/j-min/korean-parallel-corpora
 
-10.[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음
+11.[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음
 
 https://github.com/akngs/petitions
 
-11.공공데이터포털 뉴스빅데이터 분석 정보(뉴스데이터베이스 'Kinds' 기반 분석 자료, 기사 메타정보)
+12.공공데이터포털 뉴스빅데이터 분석 정보(뉴스데이터베이스 'Kinds' 기반 분석 자료, 기사 메타정보)
 https://www.data.go.kr/dataset/15012945/fileData.do
+
+
+
