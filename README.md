@@ -14,8 +14,8 @@ https://github.com/lovit/politician_news_dataset
 https://github.com/theeluwin/sci-news-sum-kr-50
 
 
-3.영화추천시스템을 위한 데이터 세트
-https://github.com/lovit/kmrd
+3.영화추천시스템을 위한 데이터 세트                 
+https://github.com/lovit/kmrd                      
 
 
 4.Naver sentiment movie corpus v1.0(네이버 악평과 선평을 구분해 놓은 데이터)                     
