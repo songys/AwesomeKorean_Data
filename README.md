@@ -41,19 +41,23 @@ https://github.com/kmounlp/NER
 https://github.com/machinereading/KoreanNERCorpus
 
 
-9.챗봇용 대화셋                          
+9.한국어 NER 사전
+https://github.com/songys/entity
+
+
+10.챗봇용 대화셋                          
 https://github.com/songys/Chatbot_data
 
 
-10.한영/한불 병렬말뭉치(번역용)                        
+11.한영/한불 병렬말뭉치(번역용)                        
 
 https://github.com/j-min/korean-parallel-corpora
 
-11.[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음
+12.[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음
 
 https://github.com/akngs/petitions
 
-12.공공데이터포털 뉴스빅데이터 분석 정보(뉴스데이터베이스 'Kinds' 기반 분석 자료, 기사 메타정보)
+13.공공데이터포털 뉴스빅데이터 분석 정보(뉴스데이터베이스 'Kinds' 기반 분석 자료, 기사 메타정보)
 https://www.data.go.kr/dataset/15012945/fileData.do
 
 
