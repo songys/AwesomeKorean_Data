@@ -73,20 +73,25 @@ https://korquad.github.io/
 
 
 # 국가적 규모에서 구축한 데이터          
-1. 사전 : 우리말샘 로그일 필요, 전체 사전 데이터 다운로드 가능 https://opendict.korean.go.kr/main    
+1. 우리말샘 : 다양한 어휘와 유의어 정보 등을 얻을 수 있는 대사전 
+    로그일 필요, 전체 사전 데이터 다운로드 가능             
+    
+https://opendict.korean.go.kr/main    
   
 - 이 사전에 대한 설명     
 https://github.com/songys/Dictionaries      
 
-2. 전자 사전 : NIA 사전           
+2. 전자 사전 : NIA 사전, 묻지도 따지지도 않고 엑셀로 다운로드 가능                   
 https://kbig.kr/portal/kbig/knowledge/files/bigdata_report.page?bltnNo=10000000016451                
 
 
-3. AIHub : 로그인 및 사용 목적과 기간을 명시한 사용 신청서 작성 후 허가 메일이 오면(하루 정도 걸린다) 다운로드 가능                        
-http://aihub.or.kr/
+3. AIHub : 텍스트와 음성 멀티모달까지 가장 광범위한 범위의 데이터다.             
+로그인 및 사용 목적과 기간을 명시한 사용 신청서 작성 후 허가 메일이 오면(하루 정도 걸린다) 다운로드 가능         
+
+http://aihub.or.kr/               
 
 3. 국립국어원 언어정보나눔터 : 로그인 후 세종2007 말뭉치나 낭독체 음성 파일 등도 다운 받을 수 있다. 다운 받을 때 간단한 서약에 체크만 하면 되는데 자료의 크기를 작게 나누어 놓아서 여러번 체크해야 한다는 단점이 있다.              
-https://ithub.korean.go.kr/user/total/database/corpusManager.do      
+https://ithub.korean.go.kr/user/total/database/corpusManager.do       
 
 
 
