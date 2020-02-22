@@ -64,7 +64,7 @@ https://www.data.go.kr/dataset/15012945/fileData.do
 
 # 회사나 팀에서 구축한 데이터
 
-1 음성 : Kyubyong Park 외(2019), 한국어 Text to Speech 를 위한 데이터 
+1. 음성 : Kyubyong Park 외(2019), 한국어 Text to Speech 를 위한 데이터 
 https://www.kaggle.com/bryanpark/korean-single-speaker-speech-dataset?fbclid=IwAR1WltCqIATEfpPsglqNgQm4zv6-rkmLvf7XMTJwuQ8nlRvaLpukZhtRhvw
 
 
@@ -90,7 +90,7 @@ https://kbig.kr/portal/kbig/knowledge/files/bigdata_report.page?bltnNo=100000000
 
 http://aihub.or.kr/               
 
-3. 국립국어원 언어정보나눔터 : 로그인 후 세종2007 말뭉치나 낭독체 음성 파일 등도 다운 받을 수 있다. 다운 받을 때 간단한 서약에 체크만 하면 되는데 자료의 크기를 작게 나누어 놓아서 여러번 체크해야 한다는 단점이 있다.              
+4. 국립국어원 언어정보나눔터 : 로그인 후 세종2007 말뭉치나 낭독체 음성 파일 등도 다운 받을 수 있다. 다운 받을 때 간단한 서약에 체크만 하면 되는데 자료의 크기를 작게 나누어 놓아서 여러번 체크해야 한다는 단점이 있다.              
 https://ithub.korean.go.kr/user/total/database/corpusManager.do       
 
 
