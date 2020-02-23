@@ -1,7 +1,7 @@
 # Awesome_Korean_Data
 한국어 데이터 세트 링크
 
-
+팁: 다음 링크 [ragsgo 전처리 데이터](https://ratsgo.github.io/embedding/preprocess.html)를 통해 손쉽게 한국어 위키피디아를 포함한 전처리 데이터와 위젯을 이용한 데이터 다운로드 가능!
 
 
 # 한국어 텍스트 데이터       
@@ -81,22 +81,18 @@ https://opendict.korean.go.kr/main
 - 이 사전에 대한 설명     
 https://github.com/songys/Dictionaries      
 
-2. 전자 사전 : NIA 사전, 묻지도 따지지도 않고 엑셀로 다운로드 가능                   
+2. 전자 사전 : NIA 사전, 묻지도 따지지도 않고 다음 링크에서 엑셀로 다운로드 가능                     
 https://kbig.kr/portal/kbig/knowledge/files/bigdata_report.page?bltnNo=10000000016451                
 
 
-3. AIHub : 텍스트와 음성 멀티모달까지 가장 광범위한 범위의 데이터다.             
-로그인 및 사용 목적과 기간을 명시한 사용 신청서 작성 후 허가 메일이 오면(하루 정도 걸린다) 다운로드 가능         
+3. AIHub : 텍스트와 음성 멀티모달까지 가장 광범위한 데이터                 
+로그인 및 사용 목적과 기간을 명시한 사용 신청서 작성 후 허가 메일이 오면(하루 정도 걸린다) 다운로드 가능            
 
-http://aihub.or.kr/               
+http://aihub.or.kr/                
 
-4. 국립국어원 언어정보나눔터 : 로그인 후 세종2007 말뭉치나 낭독체 음성 파일 등도 다운 받을 수 있다. 다운 받을 때 간단한 서약에 체크만 하면 되는데 자료의 크기를 작게 나누어 놓아서 여러번 체크해야 한다는 단점이 있다.              
+4. 국립국어원 언어정보나눔터 : 로그인 후 세종2007 말뭉치나 낭독체 음성 파일 등도 다운로드 가능      
+다운 받을 때 간단한 서약에 체크만 하면 되는데 자료의 크기를 작게 나누어 놓아서 여러번 체크해야 한다는 것이 단점                    
 https://ithub.korean.go.kr/user/total/database/corpusManager.do       
-
-
-
-
-
 
 
 
