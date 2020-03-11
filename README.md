@@ -49,8 +49,8 @@ https://github.com/songys/entity
 https://github.com/songys/Chatbot_data
 
 
-10.2 챗봇용 대화 세트와 코드
-https://github.com/warnikchow/paraKQC    
+10.2 챗봇용 대화 세트와 코드          
+https://github.com/warnikchow/paraKQC          
 
 10.1과 10.2는 거의 겹치는 질문이 없다고 할 만큼 주제가 다른다.  
 10.1은 "위로해 줘"와 같이 좀 더 사적 담화의 성격이 강하다면 10.2는 "어떤 메일이 더 유용해?" 와 같이 지식인 QnA에 나올 법한 질문들도 많다.
