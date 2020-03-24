@@ -1,56 +1,56 @@
 # Awesome_Korean_Data
 한국어 데이터 세트 링크
 
-팁: 다음 링크 [ragsgo 전처리 데이터](https://ratsgo.github.io/embedding/preprocess.html)를 통해 손쉽게 한국어 위키피디아를 포함한 전처리 데이터와 위젯을 이용한 데이터 다운로드 가능!
+팁: ragsgo 전처리 데이터 [:octocat:](https://ratsgo.github.io/embedding/preprocess.html)에서는 한국어 위키피디아를 포함한 전처리 데이터와 위젯을 이용한 데이터 다운로드를 제공하고 있음!
 
 
 # 한국어 텍스트 데이터       
 
 
 1.한국 정치인 뉴스 데이터 세트                         
-https://github.com/lovit/politician_news_dataset
+[:octocat:](https://github.com/lovit/politician_news_dataset)
 
 2.네이버 뉴스 중 IT/과학 분야에서 50개를 선정해서 요약에 해당하는 문장을 태깅해둔 데이터 세트                         
-https://github.com/theeluwin/sci-news-sum-kr-50
+[:octocat:](https://github.com/theeluwin/sci-news-sum-kr-50)
 
 
 3.영화추천시스템을 위한 데이터 세트                 
-https://github.com/lovit/kmrd                      
+[:octocat:](https://github.com/lovit/kmrd)                      
 
 
 4.Naver sentiment movie corpus v1.0(네이버 악평과 선평을 구분해 놓은 데이터)                     
-https://github.com/e9t/nsmc
+[:octocat:](https://github.com/e9t/nsmc)
 
 
 5.Naver sentiment movie corpus v1.0를 다운 받아서       
 감성분석 레이블링 상세화한 데이터                  
 label : 'toxic', 'obscene', 'threat', 'insult', 'identity_hate'                   
 
-https://github.com/songys/Toxic_comment_data
+[:octocat:](https://github.com/songys/Toxic_comment_data)
 
 
 6.Paired Question(질문쌍이 같은 질문인지 다른 질문인지 구별하는 데이터)                                      
-https://github.com/songys/Question_pair
+[:octocat:](https://github.com/songys/Question_pair)
 
 
 7.한국어 개체명 정의 및 표지 표준화 기술보고서와 이를 기반으로 제작된 개체명 형태소 말뭉치                              
-https://github.com/kmounlp/NER
+[:octocat:](https://github.com/kmounlp/NER)
 
 
 8.KoreanNERCorpus(개체명 말뭉치)             
-https://github.com/machinereading/KoreanNERCorpus
+[:octocat:](https://github.com/machinereading/KoreanNERCorpus)
 
 
 9.한국어 NER 사전       
-https://github.com/songys/entity
+[:octocat:](https://github.com/songys/entity)
 
 
 10.1 챗봇용 대화 세트                          
-https://github.com/songys/Chatbot_data
+[:octocat:](https://github.com/songys/Chatbot_data)
 
 
 10.2 챗봇용 대화 세트와 코드          
-https://github.com/warnikchow/paraKQC          
+[:octocat:](https://github.com/warnikchow/paraKQC)          
 
 10.1과 10.2는 거의 겹치는 질문이 없다고 할 만큼 주제가 다른다.  
 10.1은 "위로해 줘"와 같이 좀 더 사적 담화의 성격이 강하다면 10.2는 "어떤 메일이 더 유용해?" 와 같이 지식인 QnA에 나올 법한 질문들도 많다.
@@ -58,7 +58,7 @@ https://github.com/warnikchow/paraKQC
 
 11.한영/한불 병렬말뭉치(번역용)                        
 
-https://github.com/j-min/korean-parallel-corpora
+[:octocat:](https://github.com/j-min/korean-parallel-corpora)
 
 12.[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음
 
