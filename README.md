@@ -61,7 +61,10 @@ https://www.data.go.kr/dataset/15012945/fileData.do
 https://www.kaggle.com/bryanpark/korean-single-speaker-speech-dataset?fbclid=IwAR1WltCqIATEfpPsglqNgQm4zv6-rkmLvf7XMTJwuQ8nlRvaLpukZhtRhvw
 
 
-2. 질의 응답용 데이터 KorQuAD 1.0 질문답변 20,000+ 쌍을 포함하여 총 100,000+ 쌍으로 구성된 한국어 Machine Reading Comprehension 데이터 세트 [:octocat:](https://korquad.github.io/)
+2. 질의 응답용 데이터 KorQuAD 2.0 질문답변 20,000+ 쌍을 포함하여 총 100,000+ 쌍으로 구성된 한국어 Machine Reading Comprehension 데이터 세트 [:octocat:](https://korquad.github.io/)
+
+KorQuAD 데이터 세트와 관련된 설명 동영상 
+https://www.youtube.com/watch?v=ntGwv6Ifoe8
 
 
 # 국가적 규모에서 구축한 데이터          
