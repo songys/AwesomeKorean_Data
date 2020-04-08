@@ -66,6 +66,8 @@ https://www.kaggle.com/bryanpark/korean-single-speaker-speech-dataset?fbclid=IwA
 KorQuAD 데이터 세트와 관련된 설명 동영상 
 https://www.youtube.com/watch?v=ntGwv6Ifoe8
 
+3. 3. 카카오 브레인에서 발표한 RTE (recognizing text entailment) 데이터 세트 [:octocat:](https://github.com/kakaobrain/KorNLUDatasets)                
+
 
 # 국가적 규모에서 구축한 데이터          
 1. 우리말샘 : 다양한 어휘와 유의어 정보 등을 얻을 수 있는 대사전 
