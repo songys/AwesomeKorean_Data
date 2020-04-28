@@ -7,8 +7,6 @@
 # 한국어 텍스트 데이터       
 |번호|데이터 종류| 링크| 비고|
 |:---:|:-----------------:|:-----------------:|:-----------------:|
-
-
 |1.|한국 정치인 뉴스 데이터 세트 |[:octocat:](https://github.com/lovit/politician_news_dataset)|-|
 
 |2.|네이버 뉴스 중 IT/과학 분야에서 50개를 선정해서 요약에 해당하는 문장을 태깅해둔 데이터 세트 |[:octocat:](https://github.com/theeluwin/sci-news-sum-kr-50)|-|
@@ -57,7 +55,6 @@ https://www.data.go.kr/dataset/15012945/fileData.do |-|
 
 # 회사나 팀에서 구축한 데이터
 |:---:|:-----------------:|:-----------------:|:-----------------:|
-
 |1.| 음성 : Kyubyong Park 외(2019), 한국어 Text to Speech 를 위한 데이터 |
 https://www.kaggle.com/bryanpark/korean-single-speaker-speech-dataset?fbclid=IwAR1WltCqIATEfpPsglqNgQm4zv6-rkmLvf7XMTJwuQ8nlRvaLpukZhtRhvw|-|
 
@@ -69,7 +66,7 @@ https://www.kaggle.com/bryanpark/korean-single-speaker-speech-dataset?fbclid=IwA
 
 # 국가적 규모에서 구축한 데이터
 |:---:|:-----------------:|:-----------------:|:-----------------:|          
-|1.| 우리말샘 : 다양한 어휘와 유의어 정보 등을 얻을 수 있는 대사전 : 로그일 필요, 전체 사전 데이터 다운로드 가능| https://opendict.korean.go.kr/main| 이 사전에 대한 설명 [:octocat:](https://github.com/songys/Dictionaries)|      
+|1.| 우리말샘 : 다양한 어휘와 유의어 정보 등을 얻을 수 있는 대사전 : 로그일 필요, 전체 사전 데이터 다운로드 가능| https://opendict.korean.go.kr/main| 이 사전에 대한 설명 링크 [:octocat:](https://github.com/songys/Dictionaries)|      
 
 |2.| 전자 사전 : NIA 사전, 묻지도 따지지도 않고 다음 링크에서 엑셀로 다운로드 가능 |https://kbig.kr/portal/kbig/knowledge/files/bigdata_report.page?bltnNo=10000000016451 |-|               
 
