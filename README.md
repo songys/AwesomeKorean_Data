@@ -29,7 +29,7 @@
 |:---:|:-----------------:|:-----------------:|:-----------------:|
 |1.| Kyubyong Park 외(2019), 한국어 Text to Speech 를 위한 데이터 |https://www.kaggle.com/bryanpark/korean-single-speaker-speech-dataset?fbclid=IwAR1WltCqIATEfpPsglqNgQm4zv6-rkmLvf7XMTJwuQ8nlRvaLpukZhtRhvw |-|
 |2.| 질의 응답용 데이터 KorQuAD 2.0 질문답변 20,000+ 쌍을 포함하여 총 100,000+ 쌍으로 구성된 한국어 Machine Reading Comprehension 데이터 세트 |[:octocat:](https://korquad.github.io/)|KorQuAD 데이터 세트와 관련된 설명 동영상 -> https://www.youtube.com/watch?v=ntGwv6Ifoe8 |
-|3.| 카카오 브레인에서 발표한 RTE (recognizing text entailment) 데이터 세트 |[:octocat:](https://github.com/kakaobrain/KorNLUDatasets) | -|              
+|3.| 카카오 브레인에서 발표한 RTE (recognizing text entailment) 데이터 세트 |[:octocat:](https://github.com/kakaobrain/KorNLUDatasets) | -| |4| AI API·DATA| http://aiopen.etri.re.kr/service_dataset.php |자연어처리의 각 단계를 모두 반영하여 표준 가이드와 태깅된 데이터를 제시한다는 장점이 있다.|            
 
 
 # 국가적 규모에서 구축한 데이터
