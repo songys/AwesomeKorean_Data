@@ -22,7 +22,7 @@
 |12.|한영 병렬 말뭉치|[Korean-English parallel corpus](https://github.com/jungyeul/korean-parallel-corpora)|-|
 |13.|[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음| [:octocat:](https://github.com/akngs/petitions)|-|
 |14.|공공데이터포털 뉴스빅데이터 분석 정보(뉴스데이터베이스 'Kinds' 기반 분석 자료, 기사 메타정보)|https://www.data.go.kr/dataset/15012945/fileData.do |-|
-|14|혐오표현 관련 데이터|[ate-speech-data](https://www.kaggle.com/captainnemo9292/korean-extremist-website-womad-hate-speech-data)|-|
+|14|혐오표현 관련 데이터|[Hate-speech-data](https://www.kaggle.com/captainnemo9292/korean-extremist-website-womad-hate-speech-data)|-|
 
 
 # 회사나 팀에서 구축한 데이터
