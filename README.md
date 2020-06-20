@@ -20,9 +20,9 @@
 |10.2| 챗봇용 대화 세트와 코드| [:octocat:](https://github.com/warnikchow/paraKQC)|10.1과 10.2는 거의 겹치는 질문이 없다고 할 만큼 주제가 다르다. 10.1은 "위로해 줘"와 같이 좀 더 사적 담화의 성격이 강하다면 10.2는 "어떤 메일이 더 유용해?" 와 같이 지식인 QnA에 나올 법한 질문들도 많다.|
 |11.|한영/한불 병렬말뭉치(번역용)|[:octocat:](https://github.com/j-min/korean-parallel-corpora)|-|
 |12.|한영 병렬 말뭉치|[Korean-English parallel corpus](https://github.com/jungyeul/korean-parallel-corpora)|-|
-|12.|[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음| [:octocat:](https://github.com/akngs/petitions)|-|
-|13.|공공데이터포털 뉴스빅데이터 분석 정보(뉴스데이터베이스 'Kinds' 기반 분석 자료, 기사 메타정보)|https://www.data.go.kr/dataset/15012945/fileData.do |-|
-|14|[혐오표현 관련 데이터](https://www.kaggle.com/captainnemo9292/korean-extremist-website-womad-hate-speech-data)|-|
+|13.|[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음| [:octocat:](https://github.com/akngs/petitions)|-|
+|14.|공공데이터포털 뉴스빅데이터 분석 정보(뉴스데이터베이스 'Kinds' 기반 분석 자료, 기사 메타정보)|https://www.data.go.kr/dataset/15012945/fileData.do |-|
+|14|혐오표현 관련 데이터|[ate-speech-data](https://www.kaggle.com/captainnemo9292/korean-extremist-website-womad-hate-speech-data)|-|
 
 
 # 회사나 팀에서 구축한 데이터
