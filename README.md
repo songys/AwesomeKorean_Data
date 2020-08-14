@@ -40,7 +40,8 @@
 |1.| 우리말샘 : 다양한 어휘와 유의어 정보 등을 얻을 수 있는 대사전 : 로그일 필요, 전체 사전 데이터 다운로드 가능| https://opendict.korean.go.kr/main| 이 사전에 대한 설명 github [:octocat:](https://github.com/songys/Dictionaries)|      
 |2.| 전자 사전 : NIA 사전, 묻지도 따지지도 않고 다음 링크에서 엑셀로 다운로드 가능 |https://kbig.kr/portal/kbig/knowledge/files/bigdata_report.page?bltnNo=10000000016451 |-|
 |3.| AIHub : 텍스트와 음성 멀티모달까지 가장 광범위한 데이터, 로그인 및 사용 목적과 기간을 명시한 사용 신청서 작성 후 허가 메일이 오면(하루 정도 걸린다) 다운로드 가능 |http://aihub.or.kr/ |-|                
-|4.| 국립국어원 언어정보나눔터 : 로그인 후 세종2007 말뭉치나 낭독체 음성 파일 등도 다운로드 가능, 다운 받을 때 간단한 서약에 체크만 하면 되는데 자료의 크기를 작게 나누어 놓아서 여러번 체크해야 한다는 것이 단점 | https://ithub.korean.go.kr/user/total/database/corpusManager.do |-|       
+|4.| 국립국어원 언어정보나눔터 : 로그인 후 세종2007 말뭉치나 낭독체 음성 파일 등도 다운로드 가능, 다운 받을 때 간단한 서약에 체크만 하면 되는데 자료의 크기를 작게 나누어 놓아서 여러번 체크해야 한다는 것이 단점 | https://ithub.korean.go.kr/user/total/database/corpusManager.do |-|    
+|5|국립국어원 모두의 말뭉치 : 로그인, 메일 인증을 거쳐 데이터를 신청할 수 있다. 연구과제명과  수행기관, 약정 기간 등이 필수 입력 요소이다.| https://corpus.korean.go.kr/ |-|
 
 
 
