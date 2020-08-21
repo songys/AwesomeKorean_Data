@@ -37,7 +37,7 @@
 |No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|Description|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|    
 |1|[NSMC Sentiment analysis](https://github.com/e9t/nsmc)|Academia|DOC|com/red|150K / 50K (s)|-|ko|댓글을 통한 감성 분석 데이터 세트|          
-|2|BEEP!|[Hate speech detection](https://www.kaggle.com/captainnemo9292/korean-extremist-website-womad-hate-speech-data)) |Academia |INT |com/red |8K / 500 / 1,000 (s)|-|ko|혐오 표현 관련 데이터|                 
+|2|[BEEP!](https://www.kaggle.com/captainnemo9292/korean-extremist-website-womad-hate-speech-data)|Hate speech detection|Academia |INT |com/red |8K / 500 / 1,000 (s)|-|ko|혐오 표현 관련 데이터|                 
 |3|[3i4K](https://github.com/warnikchow/3i4k)|Speech act classification |Academia |INT |com/red |55K / 6K (s)|-|ko|Intonation-aided intention identification for Korean|Structured argument extraction for Korean|    
 |4|KorQuAD1|QA|Industry|INT|com/red (mod-x)|60K / 5K / 4K (p)|-|ko| 질의 응답 데이트 세트[KorQuAD 설명 동영상](https://www.youtube.com/watch?v=ntGwv6Ifoe8)|
 |5|[KorQuAD2](https://korquad.github.io/)|QA|Industry|article|com/red (mod-x)|80K / 10K / 10K (p)|-|ko| -|
@@ -50,8 +50,8 @@
 |2|[SAE4K](https://github.com/warnikchow/sae4k)|Summarization|Academia|INT|com/red|50K (p)|-|ko|Structured argument extraction for Korean| 
 |3|[KAIST Translation Evaluation Set](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset2) |MT Academia|DOC |aca/red |3K (p)|Eval|ko, en|-| 
 |4|[Chinese-Korean Multilingual Corpus](http://semanticweb.kaist.ac.kr/home/index.php/Corpus9) |MT Academia|DOC |aca/red|60K (p)|ko, zh |-|
-|5|Transliteration Dataset[NIKL](https://github.com/muik/transliteration) / Wiktionary(https://en.wiktionary.org/wiki/Wiktionary:Main_Page) |Transliteration|Academia |DOC |com/red |35K (p)|-| ko, en |영어 단어를 한국어 표기로 변환, 위키 낱말 사전 등|-|
-|6|[KAIST Transliteration|Evaluation Set](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset3)|Transliteration|Academia DOC |aca/red|7K (p)|Eval|ko, en|A word-pronunciation pair for phonotactics in English-Korea, 영-한 자동 음차표기를 위한 실험집합|
+|5|[Transliteration DatasetNIKL](https://github.com/muik/transliteration),  Wiktionary(https://en.wiktionary.org/wiki/Wiktionary:Main_Page) |Transliteration|Academia |DOC |com/red |35K (p)|-| ko, en |영어 단어를 한국어 표기로 변환, 위키 낱말 사전 등|-|
+|6|[KAIST Transliteration](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset3)|Evaluation Set|Transliteration|Academia DOC |aca/red|7K (p)|Eval|ko, en|A word-pronunciation pair for phonotactics in English-Korea, 영-한 자동 음차표기를 위한 실험집합|
 
 
 ## 5 Korean in multilingual corpora
@@ -68,21 +68,22 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---------:|:---------:|:---:|:---:|
 |1|[KSS](https://github.com/Kyubyong/kss) |ASR|Academia|DOC|aca/red|12+ (h)/ 13K (u) / 1 speaker |-|ko |STT|    |2|[Zeroth](https://github.com/goodatlas/zeroth) |    ASR |Industry |DOC|com/red|51+(h)/ 27K (s)/ 46K (u)/181 speakers|-|ko|-|          
 |3|[ClovaCall](https://github.com/clovaai/ClovaCall)|ASR|Industry|INT|aca/not|80+ (h)/ 60K (u)/ 11K speakers|-|ko|-|         
-|4|[Pansori-TedXKR|ASR|Academia](https://github.com/yc9701/pansori-tedxkr-corpus)|INT|aca/red (mod-x)|3+ (h)/ 3K (u)/ 41 speakers|-|ko|-|           
-|5|[ProSem](https://github.com/warnikchow/prosem)|SLU|Academia|INT|com/red|6+ (h) / 3,500 (s) /7K (u)/2 speakers|-|ko|-|          
+|4|[Pansori-TedXKR]((https://github.com/yc9701/pansori-tedxkr-corpus)|ASR|Aca|INT|aca/red (mod-x)|3+ (h)/ 3K (u)/ 41 speakers|-|ko|-|           
+|5|[ProSem](https://github.com/warnikchow/prosem)|SLU|Aca|INT|com/red|6+ (h) / 3,500 (s) /7K (u)/2 speakers|-|ko|-|          
 
 
 
 ## 7. 시사 데이터
 
 |번호|데이터 종류| 링크| 비고|          
-|:---:|:-----------------:|:-----------------:|
+|:---:|:-----------------:|:-----------------:|:-----------------:|
 |1.|[한국 정치인 뉴스 데이터 세트](https://github.com/lovit/politician_news_dataset)|-|
 |2|[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음| [:octocat:](https://github.com/akngs/petitions)|-|
 |3|공공데이터포털 뉴스빅데이터 분석 정보(뉴스데이터베이스 'Kinds' 기반 분석 자료, 기사 메타정보)|https://www.data.go.kr/dataset/15012945/fileData.do |-|
 
 ## 8. 기타 데이터
-
+|번호|데이터 종류| 링크| 비고|          
+|:---:|:-----------------:|:-----------------:|:-----------------:|
 |1|[챗봇용 대화 응답 세트](https://github.com/songys/Chatbot_data)|-|
 |2|[영화추천시스템을 위한 데이터 세트](https://github.com/lovit/kmrd)|Synthetic dataset for recommender system created with Naver Movie rating system|
 
@@ -101,15 +102,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-Public corpus
 
