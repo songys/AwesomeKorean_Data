@@ -51,8 +51,8 @@
 |1|[Sci-news-sum-kr](https://github.com/theeluwin/sci-news-sum-kr-50)|Summarization|Academia|DOC|aca/red|50 (p)|Eval|ko|-|네이버 뉴스 중 IT/과학 분야에서 50개에 요약 문장을 태깅한 데이터 세트|   
 |2|[SAE4K](https://github.com/warnikchow/sae4k)|Summarization|Academia|INT|com/red|50K (p)|-|ko|Structured argument extraction for Korean|  
 |3|[Korean Parallel Corpora](https://github.com/jungyeul/korean-parallel-corpora)|MT|Academia|INT|com/red|97K (p)|-|ko, en, fr|-|
-|3|[KAIST Translation Evaluation Set2](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset2) |MT Academia|DOC |aca/red |3K (p)|Eval|ko, en|-| 
-|4|[Chinese-Korean Multilingual Corpus](http://semanticweb.kaist.ac.kr/home/index.php/Corpus9) |MT Academia|DOC |aca/red|60K (p)|ko, zh |-|
+|3|[KAIST Translation Evaluation Set2](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset2) |MT| Academia|DOC |aca/red |3K (p)|Eval|ko, en|-| 
+|4|[Chinese-Korean Multilingual Corpus](http://semanticweb.kaist.ac.kr/home/index.php/Corpus9) |MT |Academia|DOC |aca/red|60K (p)|-|ko, zh |-|
 |5|[Transliteration Dataset](https://github.com/muik/transliteration),  Wiktionary(https://en.wiktionary.org/wiki/Wiktionary:Main_Page) |Transliteration|Academia |DOC |com/red |35K (p)|-| ko, en |영어 단어를 한국어 표기로 변환, 위키 낱말 사전 등|-|
 |6|[KAIST Transliteration Evaluation Set3](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset3)|Transliteration|Academia| DOC |aca/red|7K (p)|Eval|ko, en| 영-한 자동 음차표기를 위한 실험집합|
 
@@ -60,10 +60,10 @@
 ## 5 Korean in multilingual corpora
 |No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|Description|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---------:|:---------:|:---------:|:---------:|                             
-|1|[Sigmorphon G2P](https://sigmorphon.github.io/sharedtasks/2020/task1/) |G2P conversion Competition |DOC |unk/unk |3,600 / 450 / 450 (p) |- |ko, en, hy, bg, fr, ka, hi, hu, is, lt, el|Multilingual Grapheme-to-Phoneme Conversion| -|
-|2|[PAWS-X](https://github.com/google-research-datasets/paws/tree/master/pawsx) |    Paraphrase detection |Industry |INT |com/red |5K / 2K / 2K (p)|-|ko, fr, es, de, zh, ja|-| 
+|1|[Sigmorphon G2P](https://sigmorphon.github.io/sharedtasks/2020/task1/) |G2P conversion|Competition |DOC |unk/unk |3,600 / 450 / 450 (p) |-|ko, en, hy, bg, fr, ka, hi, hu, is, lt, el|Multilingual Grapheme-to-Phoneme Conversion|-|
+|2|[PAWS-X](https://github.com/google-research-datasets/paws/tree/master/pawsx) | Paraphrase detection |Industry|INT |com/red |5K / 2K / 2K (p)|-|ko, fr, es, de, zh, ja|-| 
 |3|[TyDi-QA](https://github.com/google-research-datasets/tydiqa)|QA|Industry|INT [DOC](https://arxiv.org/abs/2003.05002)|com/red |11K / 1,698 / 1,722 (p)|-|ko, en, ar, bn, fi, ja, id, sw, ru, te, th |-|
-|4|[XPersona](https://github.com/HLTCHKUST/Xpersona) |Dialog Academia |INT [Doc](https://arxiv.org/abs/2003.07568) |com/red |299 (d)|- |ko, en, it, fr, id, zh, ja / 4,684 (s)| -|        
+|4|[XPersona](https://github.com/HLTCHKUST/Xpersona) |Dialog |Academia |INT [Doc](https://arxiv.org/abs/2003.07568) |com/red |299 (d)|- |ko, en, it, fr, id, zh, ja / 4,684 (s)| -|        
 
 
 ## 6. Speech recognition and spoken language understanding
@@ -71,7 +71,7 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---------:|:---------:|:---:|:---:|
 |1|[KSS](https://github.com/Kyubyong/kss) |ASR|Academia|DOC|aca/red|12+ (h)/ 13K (u) / 1 speaker |-|ko |STT|    |2|[Zeroth](https://github.com/goodatlas/zeroth) |    ASR |Industry |DOC|com/red|51+(h)/ 27K (s)/ 46K (u)/181 speakers|-|ko|-|          
 |3|[ClovaCall](https://github.com/clovaai/ClovaCall)|ASR|Industry|INT|aca/not|80+ (h)/ 60K (u)/ 11K speakers|-|ko|-|         
-|4|[Pansori-TedXKR]((https://github.com/yc9701/pansori-tedxkr-corpus)|ASR|Aca|INT|aca/red (mod-x)|3+ (h)/ 3K (u)/ 41 speakers|-|ko|-|           
+|4|[Pansori-TedXKR](https://github.com/yc9701/pansori-tedxkr-corpus)|ASR|Aca|INT|aca/red (mod-x)|3+ (h)/ 3K (u)/ 41 speakers|-|ko|-|           
 |5|[ProSem](https://github.com/warnikchow/prosem)|SLU|Aca|INT|com/red|6+ (h) / 3,500 (s) /7K (u)/2 speakers|-|ko|-|          
 
 
