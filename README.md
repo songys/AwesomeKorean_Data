@@ -62,7 +62,7 @@
 |1|[Sigmorphon G2P](https://sigmorphon.github.io/sharedtasks/2020/task1/) |G2P conversion Competition |DOC |unk/unk |3,600 / 450 / 450 (p) |- |ko, en, hy, bg, fr, ka, hi, hu, is, lt, el|Multilingual Grapheme-to-Phoneme Conversion| -|
 |2|[PAWS-X](https://github.com/google-research-datasets/paws/tree/master/pawsx) |    Paraphrase detection |Industry |INT |com/red |5K / 2K / 2K (p)|-|ko, fr, es, de, zh, ja|-| 
 |3|[TyDi-QA](https://github.com/google-research-datasets/tydiqa)|QA|Industry|INT [DOC](https://arxiv.org/abs/2003.05002)|com/red |11K / 1,698 / 1,722 (p)|-|ko, en, ar, bn, fi, ja, id, sw, ru, te, th |-|
-|4|XPersona |Dialog Academia |INT |com/red |299 (d)|- |ko, en, it, fr, id, zh, ja / 4,684 (s)| -|        
+|4|[XPersona](https://github.com/HLTCHKUST/Xpersona) |Dialog Academia |INT [Doc](https://arxiv.org/abs/2003.07568) |com/red |299 (d)|- |ko, en, it, fr, id, zh, ja / 4,684 (s)| -|        
 
 
 ## 6. Speech recognition and spoken language understanding
@@ -94,10 +94,10 @@
 
 |번호|데이터 종류| 데이터 설명|
 |:---:|:-----------------:|:-----------------:|         
-|1.| [우리말샘](https://opendict.korean.go.kr/main)| 이 사전에 대한 설명 [:octocat:](https://github.com/songys/Dictionaries) : 다양한 어휘와 유의어 정보 등을 얻을 수 있는 대사전 : 로그일 필요, 전체 사전 데이터 다운로드 가능| |      
-|2.| [NIA 사전](https://kbig.kr/portal/kbig/knowledge/files/bigdata_report.page?bltnNo=10000000016451)|묻지도 따지지도 않고 다음 링크에서 엑셀로 다운로드 가능 |    
-|3.| [AIHub](http://aihub.or.kr/)| 텍스트와 음성 멀티모달까지 가장 광범위한 데이터, 로그인 및 사용 목적과 기간을 명시한 사용 신청서 작성 후 허가 메일이 오면(하루 정도 걸린다) 다운로드 가능 |                     
-|4.| [국립국어원 언어정보나눔터](https://ithub.korean.go.kr/user/total/database/corpusManager.do )| 로그인 후 세종2007 말뭉치나 낭독체 음성 파일 등도 다운로드 가능, 다운 받을 때 간단한 서약에 체크만 하면 되는데 자료의 크기를 작게 나누어 놓아서 여러번 체크해야 한다는 것이 단점 |    
+|1| [우리말샘](https://opendict.korean.go.kr/main)| 이 사전에 대한 설명 [:octocat:](https://github.com/songys/Dictionaries) : 다양한 어휘와 유의어 정보 등을 얻을 수 있는 대사전 : 로그일 필요, 전체 사전 데이터 다운로드 가능| |      
+|2| [NIA 사전](https://kbig.kr/portal/kbig/knowledge/files/bigdata_report.page?bltnNo=10000000016451)|묻지도 따지지도 않고 다음 링크에서 엑셀로 다운로드 가능 |    
+|3| [AIHub](http://aihub.or.kr/)| 텍스트와 음성 멀티모달까지 가장 광범위한 데이터, 로그인 및 사용 목적과 기간을 명시한 사용 신청서 작성 후 허가 메일이 오면(하루 정도 걸린다) 다운로드 가능 |                     
+|4| [국립국어원 언어정보나눔터](https://ithub.korean.go.kr/user/total/database/corpusManager.do )| 로그인 후 세종2007 말뭉치나 낭독체 음성 파일 등도 다운로드 가능, 다운 받을 때 간단한 서약에 체크만 하면 되는데 자료의 크기를 작게 나누어 놓아서 여러번 체크해야 한다는 것이 단점 |    
 |5|[국립국어원 모두의 말뭉치](https://corpus.korean.go.kr/)| 다양한 분석 말뭉치(형태소 분석과 구문 분석 말뭉치 등), 다양한 도메인의 말뭉치(문어, 신문, 구어, 웹), 자연어 추론을 위한 말뭉치(유사 문장) 등 다양한 데이터들이 체계적으로 구축되어 있다. 로그인, 메일 인증을 거쳐 데이터를 신청할 수 있고 다운로드 받기 위해서는 연구과제명과  수행기관, 약정 기간 등이 필수 입력 요소이다. |
 
 
