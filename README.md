@@ -38,7 +38,7 @@
 
 |No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|Description|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|    
-|1|[NSMC Sentiment analysis](https://github.com/e9t/nsmc)|Academia|DOC|com/red|150K / 50K (s)|-|ko|댓글을 통한 감성 분석 데이터 세트|          
+|1|[NSMC](https://github.com/e9t/nsmc)|Sentiment analysis|Academia|DOC|com/red|150K / 50K (s)|-|ko|댓글을 통한 감성 분석 데이터 세트|          
 |2|[BEEP!](https://www.kaggle.com/captainnemo9292/korean-extremist-website-womad-hate-speech-data)|Hate speech detection|Academia |INT |com/red |8K / 500 / 1,000 (s)|-|ko|혐오 표현 관련 데이터|                 
 |3|[3i4K](https://github.com/warnikchow/3i4k)|Speech act classification |Academia |INT |com/red |55K / 6K (s)|-|ko|Intonation-aided intention identification for Korean|Structured argument extraction for Korean|    
 |4|KorQuAD1|QA|Industry|INT|com/red (mod-x)|60K / 5K / 4K (p)|-|ko| 질의 응답 데이트 세트[KorQuAD 설명 동영상](https://www.youtube.com/watch?v=ntGwv6Ifoe8)|
@@ -49,11 +49,12 @@
 |No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|Description|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|                        
 |1|[Sci-news-sum-kr](https://github.com/theeluwin/sci-news-sum-kr-50)|Summarization|Academia|DOC|aca/red|50 (p)|Eval|ko|-|네이버 뉴스 중 IT/과학 분야에서 50개에 요약 문장을 태깅한 데이터 세트|   
-|2|[SAE4K](https://github.com/warnikchow/sae4k)|Summarization|Academia|INT|com/red|50K (p)|-|ko|Structured argument extraction for Korean| 
-|3|[KAIST Translation Evaluation Set](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset2) |MT Academia|DOC |aca/red |3K (p)|Eval|ko, en|-| 
+|2|[SAE4K](https://github.com/warnikchow/sae4k)|Summarization|Academia|INT|com/red|50K (p)|-|ko|Structured argument extraction for Korean|  
+|3|[Korean Parallel Corpora](https://github.com/jungyeul/korean-parallel-corpora)|MT|Academia|INT|com/red|97K (p)|-|ko, en, fr|-|
+|3|[KAIST Translation Evaluation Set2](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset2) |MT Academia|DOC |aca/red |3K (p)|Eval|ko, en|-| 
 |4|[Chinese-Korean Multilingual Corpus](http://semanticweb.kaist.ac.kr/home/index.php/Corpus9) |MT Academia|DOC |aca/red|60K (p)|ko, zh |-|
-|5|[Transliteration DatasetNIKL](https://github.com/muik/transliteration),  Wiktionary(https://en.wiktionary.org/wiki/Wiktionary:Main_Page) |Transliteration|Academia |DOC |com/red |35K (p)|-| ko, en |영어 단어를 한국어 표기로 변환, 위키 낱말 사전 등|-|
-|6|[KAIST Transliteration](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset3)|Evaluation Set|Transliteration|Academia DOC |aca/red|7K (p)|Eval|ko, en|A word-pronunciation pair for phonotactics in English-Korea, 영-한 자동 음차표기를 위한 실험집합|
+|5|[Transliteration Dataset](https://github.com/muik/transliteration),  Wiktionary(https://en.wiktionary.org/wiki/Wiktionary:Main_Page) |Transliteration|Academia |DOC |com/red |35K (p)|-| ko, en |영어 단어를 한국어 표기로 변환, 위키 낱말 사전 등|-|
+|6|[KAIST Transliteration Evaluation Set3](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset3)|Transliteration|Academia| DOC |aca/red|7K (p)|Eval|ko, en| 영-한 자동 음차표기를 위한 실험집합|
 
 
 ## 5 Korean in multilingual corpora
