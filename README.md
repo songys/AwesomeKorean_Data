@@ -14,7 +14,7 @@ atural language processing의 각 분야에 대한 자료 정리는 다음 링�
 ## 1.  Classical NLP pipeline
 
 |No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|데이터 설명|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|                            
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|                            
 |1|[KAIST Morpho-syntactically Annotated Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus)|Morphological analysis|Academia|article|aca/|70M(w)| - |ko|간단한 폼을 채우면 데이터를 다운로드 받을 수 있는 형식|         
 |2|[Korean Tree-tagged Corpus]((http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus))|Tree parsing|Academia|INT|aca/red|30K(s)|-|ko|-| 
 |3|[UD Korean KAIST]((http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus))|Dependency parsing| Academia| INT|com/red|30K (s)|-|ko|-| 
@@ -26,7 +26,7 @@ atural language processing의 각 분야에 대한 자료 정리는 다음 링�
 ## 2. Entailment and sentence similarity  
 
 |No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|데이터 설명|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|                            
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|                            
 |1|[Question Pair](https://github.com/songys/Question_pair)| Paraphrase detection|Academia|DOC|com/red|10K (p)|-|ko| 유사 문장쌍 |            
 |2|[KorNLI](https://github.com/kakaobrain/KorNLUDatasets)|NLI|Industry|INT|com/red |1,000K (p)|-|ko |자연어 이해를 위한 데이터 세트|
 |3|[KorSTS](https://github.com/kakaobrain/KorNLUDatasets)|STS|Industry|INT|com/red|8,500 (p)|-|ko |자연어 이해를 위한 데이터 세트|
@@ -35,7 +35,7 @@ atural language processing의 각 분야에 대한 자료 정리는 다음 링�
 ## 3. Semantics and question answering
 
 |No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|데이터 설명|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|    
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|    
 |1|[NSMC Sentiment analysis](https://github.com/e9t/nsmc)|Academia|DOC|com/red|150K / 50K (s)|-|ko|댓글을 통한 감성 분석 데이터 세트|          
 |2|BEEP!|[Hate speech detection](https://www.kaggle.com/captainnemo9292/korean-extremist-website-womad-hate-speech-data)) |Academia |INT |com/red |8K / 500 / 1,000 (s)|-|ko|혐오 표현 관련 데이터|                 
 |3|[3i4K](https://github.com/warnikchow/3i4k)|Speech act classification |Academia |INT |com/red |55K / 6K (s)|-|ko|Intonation-aided intention identification for Korean|Structured argument extraction for Korean|    
@@ -45,7 +45,7 @@ atural language processing의 각 분야에 대한 자료 정리는 다음 링�
 
 ## 4 Parallel corpora    
 |No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|데이터 설명|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|                        
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|                        
 |1|[Sci-news-sum-kr](https://github.com/theeluwin/sci-news-sum-kr-50)|Summarization|Academia|DOC|aca/red|50 (p)|Eval|ko|-|네이버 뉴스 중 IT/과학 분야에서 50개에 요약 문장을 태깅한 데이터 세트|   
 |2|[SAE4K](https://github.com/warnikchow/sae4k)|Summarization|Academia|INT|com/red|50K (p)|-|ko|Structured argument extraction for Korean| 
 |3|[KAIST Translation Evaluation Set](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset2) |MT Academia|DOC |aca/red |3K (p)|Eval|ko, en|-| 
@@ -56,7 +56,7 @@ atural language processing의 각 분야에 대한 자료 정리는 다음 링�
 
 ## 5 Korean in multilingual corpora
 |No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|데이터 설명|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|                            
+|:---:|:---:|:---:|:---:|:---:|:---:|:---------:|:---------:|:---------:|:---------:|                             
 |1|[Sigmorphon G2P](https://sigmorphon.github.io/sharedtasks/2020/task1/) |    G2P conversion     Competition |DOC |unk/unk |3,600 / 450 / 450 (p) |- |ko, en, hy, bg, fr, ka, hi, hu, is, lt, el|Multilingual Grapheme-to-Phoneme Conversion| -|
 |2|PAWS-X |    Paraphrase detection |Industry |INT |com/red |5K / 2K / 2K (p)|-|ko, fr, es, de, zh, ja|-| 
 |3|TyDi-QA|QA|Industry|INT|com/red |11K / 1,698 / 1,722 (p)|-|ko, en, ar, bn, fi, ja, id, sw, ru, te, th |-|
@@ -65,7 +65,7 @@ atural language processing의 각 분야에 대한 자료 정리는 다음 링�
 
 ## 6. Speech recognition and spoken language understanding
 |No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|데이터 설명|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---------:|:---------:|:---:|:---:|
 |1|[KSS](https://github.com/Kyubyong/kss) |ASR|Academia|DOC|aca/red|12+ (h)/ 13K (u) / 1 speaker |-|ko |STT|    |2|[Zeroth](https://github.com/goodatlas/zeroth) |    ASR |Industry |DOC|com/red|51+(h)/ 27K (s)/ 46K (u)/181 speakers|-|ko|-|          
 |3|[ClovaCall](https://github.com/clovaai/ClovaCall)|ASR|Industry|INT|aca/not|80+ (h)/ 60K (u)/ 11K speakers|-|ko|-|         
 |4|[Pansori-TedXKR|ASR|Academia](https://github.com/yc9701/pansori-tedxkr-corpus)|INT|aca/red (mod-x)|3+ (h)/ 3K (u)/ 41 speakers|-|ko|-|           
@@ -75,7 +75,7 @@ atural language processing의 각 분야에 대한 자료 정리는 다음 링�
 
 ## 7. 시사 데이터
 
-|번호|데이터 종류| 링크| 비고|
+|번호|데이터 종류| 링크| 비고|          
 |:---:|:-----------------:|:-----------------:|
 |1.|[한국 정치인 뉴스 데이터 세트](https://github.com/lovit/politician_news_dataset)|-|
 |2|[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음| [:octocat:](https://github.com/akngs/petitions)|-|
@@ -88,9 +88,10 @@ atural language processing의 각 분야에 대한 자료 정리는 다음 링�
 
 
 # 국가적 규모에서 구축한 데이터
+
 |번호|데이터 종류| 링크| 비고|
 |:---:|:-----------------:|:-----------------:|:-----------------:|          
-|1.| 우리말샘 : 다양한 어휘와 유의어 정보 등을 얻을 수 있는 대사전 : 로그일 필요, 전체 사전 데이터 다운로드 가능| https://opendict.korean.go.kr/main| 이 사전에 대한 설명 github [:octocat:](https://github.com/songys/Dictionaries)|      
+|1.| 우리말샘 : 다양한 어휘와 유의어 정보 등을 얻을 수 있는 대사전 : 로그일 필요, 전체 사전 데이터 다운로드 가능| https://opendict.korean.go.kr/main| 이 사전에 대한 설명 [:octocat:](https://github.com/songys/Dictionaries)|      
 |2.| 전자 사전 : NIA 사전, 묻지도 따지지도 않고 다음 링크에서 엑셀로 다운로드 가능 |https://kbig.kr/portal/kbig/knowledge/files/bigdata_report.page?bltnNo=10000000016451 |-|
 |3.| AIHub : 텍스트와 음성 멀티모달까지 가장 광범위한 데이터, 로그인 및 사용 목적과 기간을 명시한 사용 신청서 작성 후 허가 메일이 오면(하루 정도 걸린다) 다운로드 가능 |http://aihub.or.kr/ |-|                
 |4.| 국립국어원 언어정보나눔터 : 로그인 후 세종2007 말뭉치나 낭독체 음성 파일 등도 다운로드 가능, 다운 받을 때 간단한 서약에 체크만 하면 되는데 자료의 크기를 작게 나누어 놓아서 여러번 체크해야 한다는 것이 단점 | https://ithub.korean.go.kr/user/total/database/corpusManager.do |-|    
