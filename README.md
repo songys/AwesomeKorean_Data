@@ -1,37 +1,90 @@
-# Awesome_Korean_Data
-한국어 데이터 세트 링크
 
-팁: ragsgo 전처리 데이터 [:octocat:](https://ratsgo.github.io/embedding/preprocess.html)에서는 한국어 위키피디아를 포함한 전처리 데이터와 위젯을 이용한 데이터 다운로드를 제공하고 있음!
+# AwesomeKorean_Data
+@warnikchow님의 기여와 의견을 반영하여 수정하였습니다.       
+atural language processing의 각 분야에 대한 자료 정리는 다음 링크를 참고     [Awesome-Korean-NLP](https://github.com/datanada/Awesome-Korean-NLP)      
+
+- 다양한 전처리 및 다운로더를 포함한 데이터 링크는 다음을 참조 [ragsgo](https://ratsgo.github.io/embedding/preprocess.html)      
 
 
-# 한국어 텍스트 데이터       
+                                    
+# Open Datasets
+- Commercially available(com), academic use only( aca), unknown(unk)
+- Redistribution is possible with or without modification, if neither, or unknown (red, red/mod-x, not, unk)
+
+## 1.  Classical NLP pipeline
+
+|No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|데이터 설명|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|                            
+|1|[KAIST Morpho-syntactically Annotated Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus)|Morphological analysis|Academia|article|aca/|70M(w)| - |ko|간단한 폼을 채우면 데이터를 다운로드 받을 수 있는 형식|         
+|2|[Korean Tree-tagged Corpus]((http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus))|Tree parsing|Academia|INT|aca/red|30K(s)|-|ko|-| 
+|3|[UD Korean KAIST]((http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus))|Dependency parsing| Academia| INT|com/red|30K (s)|-|ko|-| 
+|4|[PKT-UD](https://catalog.ldc.upenn.edu/LDC2006T09)|Dependency parsing |Academia| INT| com/red|5K (s)|-|ko| 
+|5|[KMOU NER](https://github.com/kmounlp/NER)| NER| Academia|article|aca/red|24K (s)|-|ko|-| 
+|6|[AIR x NAVER NER](http://air.changwon.ac.kr/?page_id=10)| NER |Competition| DOC |aca/not|90K (s)|-|ko|-| 
+|7|[AIR x NAVER SLR](http://air.changwon.ac.kr/?page_id=14)|SLR|Competition|DOC|aca/not|35K(s)|-|ko|-| 
+
+## 2. Entailment and sentence similarity  
+
+|No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|데이터 설명|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|                            
+|1|[Question Pair](https://github.com/songys/Question_pair)| Paraphrase detection|Academia|DOC|com/red|10K (p)|-|ko| 유사 문장쌍 |            
+|2|[KorNLI](https://github.com/kakaobrain/KorNLUDatasets)|NLI|Industry|INT|com/red |1,000K (p)|-|ko |자연어 이해를 위한 데이터 세트|
+|3|[KorSTS](https://github.com/kakaobrain/KorNLUDatasets)|STS|Industry|INT|com/red|8,500 (p)|-|ko |자연어 이해를 위한 데이터 세트|
+|4|[ParaKQC](https://github.com/warnikchow/ParaKQC)|STS|Academia|INT|com/red|540K (p)|-|ko |Parallel dataset of Korean Questions and Commands|
+
+## 3. Semantics and question answering
+
+|No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|데이터 설명|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|    
+|1|[NSMC Sentiment analysis](https://github.com/e9t/nsmc)|Academia|DOC|com/red|150K / 50K (s)|-|ko|댓글을 통한 감성 분석 데이터 세트|          
+|2|BEEP!|[Hate speech detection](https://www.kaggle.com/captainnemo9292/korean-extremist-website-womad-hate-speech-data)) |Academia |INT |com/red |8K / 500 / 1,000 (s)|-|ko|혐오 표현 관련 데이터|                 
+|3|[3i4K](https://github.com/warnikchow/3i4k)|Speech act classification |Academia |INT |com/red |55K / 6K (s)|-|ko|Intonation-aided intention identification for Korean|Structured argument extraction for Korean|    
+|4|KorQuAD1|QA|Industry|INT|com/red (mod-x)|60K / 5K / 4K (p)|-|ko| 질의 응답 데이트 세트[KorQuAD 설명 동영상](https://www.youtube.com/watch?v=ntGwv6Ifoe8)|
+|5|[KorQuAD2](https://korquad.github.io/)|QA|Industry|article|com/red (mod-x)|80K / 10K / 10K (p)|-|ko| -|
+
+
+## 4 Parallel corpora    
+|No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|데이터 설명|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|                        
+|1|[Sci-news-sum-kr](https://github.com/theeluwin/sci-news-sum-kr-50)|Summarization|Academia|DOC|aca/red|50 (p)|Eval|ko|-|네이버 뉴스 중 IT/과학 분야에서 50개에 요약 문장을 태깅한 데이터 세트|   
+|2|[SAE4K](https://github.com/warnikchow/sae4k)|Summarization|Academia|INT|com/red|50K (p)|-|ko|Structured argument extraction for Korean| 
+|3|[KAIST Translation Evaluation Set](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset2) |MT Academia|DOC |aca/red |3K (p)|Eval|ko, en|-| 
+|4|[Chinese-Korean Multilingual Corpus](http://semanticweb.kaist.ac.kr/home/index.php/Corpus9) |MT Academia|DOC |aca/red|60K (p)|ko, zh |-|
+|5|Transliteration Dataset[NIKL](https://github.com/muik/transliteration) / Wiktionary(https://en.wiktionary.org/wiki/Wiktionary:Main_Page) |Transliteration|Academia |DOC |com/red |35K (p)|-| ko, en |영어 단어를 한국어 표기로 변환, 위키 낱말 사전 등|-|
+|6|[KAIST Transliteration|Evaluation Set](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset3)|Transliteration|Academia DOC |aca/red|7K (p)|Eval|ko, en|A word-pronunciation pair for phonotactics in English-Korea, 영-한 자동 음차표기를 위한 실험집합|
+
+
+## 5 Korean in multilingual corpora
+|No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|데이터 설명|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|                            
+|1|[Sigmorphon G2P](https://sigmorphon.github.io/sharedtasks/2020/task1/) |    G2P conversion     Competition |DOC |unk/unk |3,600 / 450 / 450 (p) |- |ko, en, hy, bg, fr, ka, hi, hu, is, lt, el|Multilingual Grapheme-to-Phoneme Conversion| -|
+|2|PAWS-X |    Paraphrase detection |Industry |INT |com/red |5K / 2K / 2K (p)|-|ko, fr, es, de, zh, ja|-| 
+|3|TyDi-QA|QA|Industry|INT|com/red |11K / 1,698 / 1,722 (p)|-|ko, en, ar, bn, fi, ja, id, sw, ru, te, th |-|
+|4|XPersona |Dialog Academia |INT |com/red |299 (d)|- |ko, en, it, fr, id, zh, ja / 4,684 (s)| -|        
+
+
+## 6. Speech recognition and spoken language understanding
+|No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|데이터 설명|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|1|[KSS](https://github.com/Kyubyong/kss) |ASR|Academia|DOC|aca/red|12+ (h)/ 13K (u) / 1 speaker |-|ko |STT|    |2|[Zeroth](https://github.com/goodatlas/zeroth) |    ASR |Industry |DOC|com/red|51+(h)/ 27K (s)/ 46K (u)/181 speakers|-|ko|-|          
+|3|[ClovaCall](https://github.com/clovaai/ClovaCall)|ASR|Industry|INT|aca/not|80+ (h)/ 60K (u)/ 11K speakers|-|ko|-|         
+|4|[Pansori-TedXKR|ASR|Academia](https://github.com/yc9701/pansori-tedxkr-corpus)|INT|aca/red (mod-x)|3+ (h)/ 3K (u)/ 41 speakers|-|ko|-|           
+|5|[ProSem](https://github.com/warnikchow/prosem)|SLU|Academia|INT|com/red|6+ (h) / 3,500 (s) /7K (u)/2 speakers|-|ko|-|          
+
+
+
+## 7. 시사 데이터
+
 |번호|데이터 종류| 링크| 비고|
-|:---:|:-----------------:|:-----------------:|:-----------------:|
-|1.|한국 정치인 뉴스 데이터 세트 |[:octocat:](https://github.com/lovit/politician_news_dataset)|-|
-|2.|네이버 뉴스 중 IT/과학 분야에서 50개를 선정해서 요약에 해당하는 문장을 태깅해둔 데이터 세트 |[:octocat:](https://github.com/theeluwin/sci-news-sum-kr-50)|-|
-|3.|영화추천시스템을 위한 데이터 세트 |[:octocat:](https://github.com/lovit/kmrd)|-|
-|4.|Naver sentiment movie corpus v1.0(네이버 악평과 선평을 구분해 놓은 데이터)| [:octocat:](https://github.com/e9t/nsmc)|-|
-|5.|Naver sentiment movie corpus v1.0를 다운 받아서 감성분석 레이블링을 상세화('toxic', 'obscene', 'threat', 'insult', 'identity_hate')한 데이터 |[:octocat:](https://github.com/songys/Toxic_comment_data)|-|
-|6.|Paired Question(질문쌍이 같은 질문인지 다른 질문인지 구별하는 데이터)|[:octocat:](https://github.com/songys/Question_pair)|-|
-|7.|한국어 개체명 정의 및 표지 표준화 기술보고서와 이를 기반으로 제작된 개체명 형태소 말뭉치|[:octocat:](https://github.com/kmounlp/NER)|-|
-|8.|KoreanNERCorpus(개체명 말뭉치) |[:octocat:](https://github.com/machinereading/KoreanNERCorpus)|-|
-|9.|한국어 NER 사전 |[:octocat:](https://github.com/songys/entity)|-|
-|10.1| 챗봇용 대화 세트 |[:octocat:](https://github.com/songys/Chatbot_data)|-|
-|10.2| 챗봇용 대화 세트와 코드| [:octocat:](https://github.com/warnikchow/paraKQC)|10.1과 10.2는 거의 겹치는 질문이 없다고 할 만큼 주제가 다르다. 10.1은 "위로해 줘"와 같이 좀 더 사적 담화의 성격이 강하다면 10.2는 "어떤 메일이 더 유용해?" 와 같이 지식인 QnA에 나올 법한 질문들도 많다.|
-|11.|한영/한불 병렬말뭉치(번역용)|[:octocat:](https://github.com/j-min/korean-parallel-corpora)|-|
-|12.|한영 병렬 말뭉치|[Korean-English parallel corpus](https://github.com/jungyeul/korean-parallel-corpora)|-|
-|13.|[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음| [:octocat:](https://github.com/akngs/petitions)|-|
-|14.|공공데이터포털 뉴스빅데이터 분석 정보(뉴스데이터베이스 'Kinds' 기반 분석 자료, 기사 메타정보)|https://www.data.go.kr/dataset/15012945/fileData.do |-|
-|14|혐오표현 관련 데이터|[Hate-speech-data](https://www.kaggle.com/captainnemo9292/korean-extremist-website-womad-hate-speech-data)|-|
+|:---:|:-----------------:|:-----------------:|
+|1.|[한국 정치인 뉴스 데이터 세트](https://github.com/lovit/politician_news_dataset)|-|
+|2|[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음| [:octocat:](https://github.com/akngs/petitions)|-|
+|3|공공데이터포털 뉴스빅데이터 분석 정보(뉴스데이터베이스 'Kinds' 기반 분석 자료, 기사 메타정보)|https://www.data.go.kr/dataset/15012945/fileData.do |-|
 
+## 8. 기타 데이터
 
-# 회사나 팀에서 구축한 데이터
-|번호|데이터 종류| 링크| 비고|
-|:---:|:-----------------:|:-----------------:|:-----------------:|
-|1.| Kyubyong Park 외(2019), 한국어 Text to Speech 를 위한 데이터 |https://www.kaggle.com/bryanpark/korean-single-speaker-speech-dataset?fbclid=IwAR1WltCqIATEfpPsglqNgQm4zv6-rkmLvf7XMTJwuQ8nlRvaLpukZhtRhvw |-|
-|2.| 질의 응답용 데이터 KorQuAD 2.0 질문답변 20,000+ 쌍을 포함하여 총 100,000+ 쌍으로 구성된 한국어 Machine Reading Comprehension 데이터 세트 |[:octocat:](https://korquad.github.io/)|KorQuAD 데이터 세트와 관련된 설명 동영상 -> https://www.youtube.com/watch?v=ntGwv6Ifoe8 |
-|3.| 카카오 브레인에서 발표한 RTE (recognizing text entailment) 데이터 세트 |[:octocat:](https://github.com/kakaobrain/KorNLUDatasets) | -| 
-|4| AI API·DATA| http://aiopen.etri.re.kr/service_dataset.php |자연어처리의 각 단계를 모두 반영하여 표준 가이드와 태깅된 데이터를 제시한다는 장점이 있다.|            
+|1|[챗봇용 대화 응답 세트](https://github.com/songys/Chatbot_data)|-|
+|2|[영화추천시스템을 위한 데이터 세트](https://github.com/lovit/kmrd)|Synthetic dataset for recommender system created with Naver Movie rating system|
 
 
 # 국가적 규모에서 구축한 데이터
@@ -48,4 +101,14 @@
 
 
 
+
+
+
+
+
+
+
+
+
+Public corpus
 
