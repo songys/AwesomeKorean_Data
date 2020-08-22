@@ -1,6 +1,6 @@
 
 # AwesomeKorean_Data
-- @warnikchow님의 기여와 의견을 반영하여 수정하였습니다.       
+- 12월 15일 첫번째 버전을 만들었고 이후 박조은님의 코멘트 그리고 2020년 8월 21일 @warnikchow님의 다양한 기여와 의견을 반영하여 수정하였습니다.       
 - Natural language processing의 각 분야에 대한 자료 정리는 다음 링크를 참고     [Awesome-Korean-NLP](https://github.com/datanada/Awesome-Korean-NLP) 
 
 
