@@ -9,6 +9,8 @@
 
                                     
 # Open Datasets
+![network](./network.jpg)
+
 - Commercially available(com), academic use only(aca), unknown(unk)
 - Redistribution is possible with or without modification, if neither, or unknown (red, red/mod-x, not, unk)  
 - Internationally available publication(INT) 
