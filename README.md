@@ -49,7 +49,7 @@
 |No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|Description|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|    
 |1|[NSMC](https://github.com/e9t/nsmc)|Sentiment analysis|Academia|DOC|com/red|150K / 50K (s)|-|ko|댓글을 통한 감성 분석 데이터 세트|          
-|2|[BEEP!](https://www.kaggle.com/captainnemo9292/korean-extremist-website-womad-hate-speech-data)|Hate speech detection|Academia |INT |com/red |8K / 500 / 1,000 (s)|-|ko|혐오 표현 관련 데이터|                 
+|2|[BEEP!](https://github.com/kocohub/korean-hate-speech)|Hate speech detection|Academia |INT |com/red |8K / 500 / 1,000 (s)|-|ko|혐오 표현 관련 데이터|                 
 |3|[3i4K](https://github.com/warnikchow/3i4k)|Speech act classification |Academia |INT |com/red |55K / 6K (s)|-|ko|Intonation-aided intention identification for Korean|Structured argument extraction for Korean|    
 |4|KorQuAD1|QA|Industry|INT|com/red (mod-x)|60K / 5K / 4K (p)|-|ko| 질의 응답 데이트 세트[KorQuAD 설명 동영상](https://www.youtube.com/watch?v=ntGwv6Ifoe8)|
 |5|[KorQuAD2](https://korquad.github.io/)|QA|Industry|article|com/red (mod-x)|80K / 10K / 10K (p)|-|ko| -|
