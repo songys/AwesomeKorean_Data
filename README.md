@@ -100,8 +100,9 @@
 ## 8. 기타 데이터
 |번호|데이터 종류| 데이터 설명|          
 |:---:|:-----------------:|:-----------------:|
-|1|[챗봇용 대화 응답 세트](https://github.com/songys/Chatbot_data)|-|
+|1|[챗봇용 대화 응답 세트](https://github.com/songys/Chatbot_data)|챗봇용 응답 쌍과 긍부정 태깅|
 |2|[영화추천시스템을 위한 데이터 세트](https://github.com/lovit/kmrd)|Synthetic dataset for recommender system created with Naver Movie rating system|
+|3|[욕설데이터 세트](https://github.com/2runo/Curse-detection-data)|문장의 욕설 여부를 분류한 데이터 세트|
 
 
 # 국가적 규모에서 구축한 데이터
