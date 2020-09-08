@@ -103,6 +103,7 @@
 |1|[챗봇용 대화 응답 세트](https://github.com/songys/Chatbot_data)|챗봇용 응답 쌍과 긍부정 태깅|
 |2|[영화추천시스템을 위한 데이터 세트](https://github.com/lovit/kmrd)|Synthetic dataset for recommender system created with Naver Movie rating system|
 |3|[욕설데이터 세트](https://github.com/2runo/Curse-detection-data)|문장의 욕설 여부를 분류한 데이터 세트|
+|4|[학습용 뉴스 댓글 데이터](https://www.kaggle.com/junbumlee/kcbert-pretraining-corpus-korean-news-comments)|BERT 모델과 학습에 이용한 11.62G 데이터를 모두 공개| 
 
 
 # 국가적 규모에서 구축한 데이터
