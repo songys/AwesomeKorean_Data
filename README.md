@@ -53,7 +53,7 @@
 |3|[3i4K](https://github.com/warnikchow/3i4k)|Speech act classification |Academia |INT |com/red |55K / 6K (s)|-|ko|Intonation-aided intention identification for Korean|Structured argument extraction for Korean|    
 |4|KorQuAD1|QA|Industry|INT|com/red (mod-x)|60K / 5K / 4K (p)|-|ko| 질의 응답 데이트 세트[KorQuAD 설명 동영상](https://www.youtube.com/watch?v=ntGwv6Ifoe8)|
 |5|[KorQuAD2](https://korquad.github.io/)|QA|Industry|article|com/red (mod-x)|80K / 10K / 10K (p)|-|ko| -|
-
+|6|[bab2min corpus](https://github.com/bab2min/corpus/tree/master/sentiment)|Sentiment analysis|Public Domain|DOC|com/red|200K / 100K (s)|-|ko|네이버 쇼핑과 게임 유통 서비스 Stream 리뷰
 
 ## 4 Parallel corpora  
 병렬 코퍼스는 언어 간 연구 또는 번역 자동화를 위한 데이터 세트이다. 이 분야에 처음 진입하는 사람이라면 Aihub의 샘플 데이터[링크](http://aihub.or.kr/sample_data_board)부터 다운로드 받아서 시작해 보는 것도 추천한다. 비교적 문장이 짧고 구어부터 신문, 문어까지 다양한 도메인의 데이터가 구축되어 있다.           
