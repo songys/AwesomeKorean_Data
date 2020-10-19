@@ -16,96 +16,60 @@
 # Open Datasets
 ![network](./network.jpg)
 
-- Commercially available(com), academic use only(aca), unknown(unk)
-- Redistribution is possible with or without modification, if neither, or unknown (red, red/mod-x, not, unk)  
-- Internationally available publication(INT) 
-
-## 1.  Classical NLP pipeline
-
-분석적 관점에서 원시 코퍼스로부터 형태소,(의존)구문, 의미역, 개체명, 무형대용어복원 등의 태깅을 하는 과제가 주를 이룬다. 데이터 설계에서부터 주석을 일관성 있게 달 수 있도록 하는 것이 필요하다, 즉, 개체명의 'entity'와 무형대용어복원의 'entity'가 일치하고 파일 번호 역시 매핑되어야 구축된 다층위 코퍼스가 실제 모델 설계에 쉽게 반영될 수 있다.
-
-|No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|Description|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|                            
-|1|[KAIST Morpho-syntactically Annotated Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus)|Morphological analysis|Academia|article|aca/|70M(w)| - |ko|원시코퍼스부터 다양한 코퍼스가 있다. 하나 하나의 데이터마다 Affiliation을 채워야 하지만 데이터 만드는 품을 생각하면 이 정도는 오픈 데이터로 보는 것이 좋을 듯하다.|         
-|2|[Korean Tree-tagged Corpus]((http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus))|Tree parsing|Academia|INT|aca/red|30K(s)|-|ko|-| 
-|3|[UD Korean KAIST]((http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus))|Dependency parsing| Academia| INT|com/red|30K (s)|-|ko|한영 Treebank 주석 코퍼스 | 
-|4|[PKT-UD](https://catalog.ldc.upenn.edu/LDC2006T09)|Dependency parsing |Academia| INT| com/red|5K (s)|-|ko| 
-|5|[KMOU NER](https://github.com/kmounlp/NER)| NER| Academia|article|aca/red|24K (s)|-|ko|한국어 개체명 정의 및 표지 표준화 기술보고서와 이를 기반으로 제작된 개체명 형태소 코퍼스| 
-|6|[AIR x NAVER NER](http://air.changwon.ac.kr/?page_id=10)| NER |Competition| DOC |aca/not|90K (s)|-|ko|인명, 기관명, 지명 등 특정한 의미가 있다고 생각하는 명사들의 최대 범주를 태깅하는 과제에 필요한 데이터 세트| 
-|7|[AIR x NAVER SLR](http://air.changwon.ac.kr/?page_id=14)|SLR|Competition|DOC|aca/not|35K(s)|-|ko|의미역 결정(Semantic Role Labeling)을 위한 데이터
-| 
-
-## 2. Entailment and sentence similarity  
-실제 담화에서 어떤 문장(발화)들이 같은 의미로 기능하는지를 실제적으로 판단하는 과제가 주를 이룬다. 단지 유사 단어나 문장뿐만 아니라 문장 길이나 쓰인 단어, 어순 등이 다르지만 내포하는 의미가 같은 경우 등으로 세분화해서 데이터가 구축된다.
-
-|No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|Description|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|                            
-|1|[Question Pair](https://github.com/songys/Question_pair)| Paraphrase detection|Academia|DOC|com/red|10K (p)|-|ko| 유사 문장쌍 |            
-|2|[KorNLI](https://github.com/kakaobrain/KorNLUDatasets)|NLI|Industry|INT|com/red |1,000K (p)|-|ko |자연어 이해를 위한 데이터 세트|
-|3|[KorSTS](https://github.com/kakaobrain/KorNLUDatasets)|STS|Industry|INT|com/red|8,500 (p)|-|ko |자연어 이해를 위한 데이터 세트|
-|4|[ParaKQC](https://github.com/warnikchow/ParaKQC)|STS|Academia|INT|com/red|540K (p)|-|ko |Parallel dataset of Korean Questions and Commands|
-
-## 3. Semantics and question answering
-자연어처리에서 '의미론'은 많은 부분에서 분류의 문제로 처리되어 왔다(Y Kim(2014)). 가령, 좁은 범주의 고정 도메인에서 QA 문제를 풀 때 정해진 답변을 분류 문제로 풀어서 답할 수 있다. 수영장 이용 안내를 챗봇으로 하는 경우 라커키 이용 방법처럼 자주 나오는 질문에 대한 답은 정해져 있는 편이 경제적일 것이다.
-
-|No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|Description|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|    
-|1|[NSMC](https://github.com/e9t/nsmc)|Sentiment analysis|Academia|DOC|com/red|150K / 50K (s)|-|ko|댓글을 통한 감성 분석 데이터 세트|          
-|2|[BEEP!](https://github.com/kocohub/korean-hate-speech)|Hate speech detection|Academia |INT |com/red |8K / 500 / 1,000 (s)|-|ko|혐오 표현 관련 데이터|                 
-|3|[3i4K](https://github.com/warnikchow/3i4k)|Speech act classification |Academia |INT |com/red |55K / 6K (s)|-|ko|Intonation-aided intention identification for Korean|Structured argument extraction for Korean|    
-|4|KorQuAD1|QA|Industry|INT|com/red (mod-x)|60K / 5K / 4K (p)|-|ko| 질의 응답 데이트 세트[KorQuAD 설명 동영상](https://www.youtube.com/watch?v=ntGwv6Ifoe8)|
-|5|[KorQuAD2](https://korquad.github.io/)|QA|Industry|article|com/red (mod-x)|80K / 10K / 10K (p)|-|ko| -|
-|6|[bab2min corpus](https://github.com/bab2min/corpus/tree/master/sentiment)|Sentiment analysis|Public Domain|DOC|com/red|200K / 100K (s)|-|ko|네이버 쇼핑과 게임 유통 서비스 Stream 리뷰
-
-## 4 Parallel corpora  
-병렬 코퍼스는 언어 간 연구 또는 번역 자동화를 위한 데이터 세트이다. 이 분야에 처음 진입하는 사람이라면 Aihub의 샘플 데이터[링크](http://aihub.or.kr/sample_data_board)부터 다운로드 받아서 시작해 보는 것도 추천한다. 비교적 문장이 짧고 구어부터 신문, 문어까지 다양한 도메인의 데이터가 구축되어 있다.           
-
-|No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|Description|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|                        
-|1|[Sci-news-sum-kr](https://github.com/theeluwin/sci-news-sum-kr-50)|Summarization|Academia|DOC|aca/red|50 (p)|Eval|ko|-|네이버 뉴스 중 IT/과학 분야에서 50개에 요약 문장을 태깅한 데이터 세트|   
-|2|[SAE4K](https://github.com/warnikchow/sae4k)|Summarization|Academia|INT|com/red|50K (p)|-|ko|Structured argument extraction for Korean|  
-|3|[Korean Parallel Corpora](https://github.com/jungyeul/korean-parallel-corpora)|MT|Academia|INT|com/red|97K (p)|-|ko, en, fr|-|
-|3|[KAIST Translation Evaluation Set2](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset2) |MT| Academia|DOC |aca/red |3K (p)|Eval|ko, en|-| 
-|4|[Chinese-Korean Multilingual Corpus](http://semanticweb.kaist.ac.kr/home/index.php/Corpus9) |MT |Academia|DOC |aca/red|60K (p)|-|ko, zh |-|
-|5|[Transliteration Dataset](https://github.com/muik/transliteration),  [Wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page) |Transliteration|Academia |DOC |com/red |35K (p)|-| ko, en |영어-한글 표기 변환기|-|
-|6|[KAIST Transliteration Evaluation Set3](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset3)|Transliteration|Academia| DOC |aca/red|7K (p)|Eval|ko, en| 영-한 자동 음차표기를 위한 실험집합|
+- Commercially available(com), academic use only(Academia), unknown(unk)
+- Redistribution is possible with or without modification, if neither, or unknown (rd, rd/mod-x, no, unk)  
+- Internationally available publication(inter) 
 
 
-## 5 Korean in multilingual corpora
-|No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|Description|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---------:|:---------:|:---------:|:---------:|                           
-|1|[Sigmorphon G2P](https://sigmorphon.github.io/sharedtasks/2020/task1/) |G2P conversion|Competition |DOC |unk/unk |3,600 / 450 / 450 (p) |-|ko, en, hy, bg, fr, ka, hi, hu, is, lt, el|Multilingual Grapheme-to-Phoneme Conversion|-|
-|2|[PAWS-X](https://github.com/google-research-datasets/paws/tree/master/pawsx) | Paraphrase detection |Industry|INT |com/red |5K / 2K / 2K (p)|-|ko, fr, es, de, zh, ja|-| 
-|3|[TyDi-QA](https://github.com/google-research-datasets/tydiqa)|QA|Industry|INT [DOC](https://arxiv.org/abs/2003.05002)|com/red |11K / 1,698 / 1,722 (p)|-|ko, en, ar, bn, fi, ja, id, sw, ru, te, th |-|
-|4|[XPersona](https://github.com/HLTCHKUST/Xpersona) |Dialog |Academia |INT [Doc](https://arxiv.org/abs/2003.07568) |com/red |299 (d)|- |ko, en, it, fr, id, zh, ja / 4,684 (s)| -|        
-
-
-## 6. Speech recognition and spoken language understanding
-|No|Dataset|Typical Usage|Provider|Docu|License|Volume|Goal|Lang|Description|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---------:|:---------:|:---:|:---:|
-|1|[KSS](https://github.com/Kyubyong/kss) |ASR|Academia|DOC|aca/red|12+ (h)/ 13K (u) / 1 speaker |-|ko |STT|    
-|2|[Zeroth](https://github.com/goodatlas/zeroth) |    ASR |Industry |DOC|com/red|51+(h)/ 27K (s)/ 46K (u)/181 speakers|-|ko|-|          
-|3|[ClovaCall](https://github.com/clovaai/ClovaCall)|ASR|Industry|INT|aca/not|80+ (h)/ 60K (u)/ 11K speakers|-|ko|-|         
-|4|[Pansori-TedXKR](https://github.com/yc9701/pansori-tedxkr-corpus)|ASR|Aca|INT|aca/red (mod-x)|3+ (h)/ 3K (u)/ 41 speakers|-|ko|-|           
-|5|[ProSem](https://github.com/warnikchow/prosem)|SLU|Aca|INT|com/red|6+ (h) / 3,500 (s) /7K (u)/2 speakers|-|ko|-|          
+|No.|Dataset|Typical Usage|Provider|Docu.|License|Volume|Goal|Lang.|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|1|[KAIST Morpho-Syntactically Annotated Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus)형태분석|Academia|art|acad/no|70M (w)| - |ko|
+|2|[KAIST Korean Tree-Tagging Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus)|구문분석|Academia|inter|acad/no|30K (s)|-|ko|
+|3|[UD Korean KAIST](https://github.com/emorynlp/ud-korean)|의존구문분석|Academia|inter|acad/rd|27K (s)|-|ko|
+|4|[PKT-UD](https://github.com/emorynlp/ud-korean)|의존구문분석|Academia|inter|acad/no|5K (s)|-|ko|
+|5|[KMOU NER](https://github.com/kmounlp/NER)|개체명인식| Academia|art|acad/rd|24K (s)|-|ko|
+|6|[AIR x NAVER NER](http://air.changwon.ac.kr/?page_id=10)|개체명인식|Competition|doc|acad/no|90K (s)|-|ko|
+|7|[AIR x NAVER SRL](http://air.changwon.ac.kr/?page_id=14)| 의미역 결정(Semantic Role Labeling)|Competition|doc|acad/no|35K (s)|-|ko|
+|8|[Question Pair](https://github.com/songys/Question_pair)|유사문장탐지|Academia|doc|com/rd|10K (p)|-|ko|
+|9|[KorNLI](https://github.com/kakaobrain/KorNLUDatasets)|자연처 추론(Natural Language Inference)|Industry|inter|com/rd |1,000K (p)|-|ko|
+|10|[KorSTS](https://github.com/kakaobrain/KorNLUDatasets)|유사문장탐지(Semantic Textual Similarity)|Industry|[inter](https://arxiv.org/abs/2004.03289)|com/rd|8,500 (p)|-|ko |
+|11|[ParaKQC](https://github.com/warnikchow/ParaKQC)|유사문장판별(STS)|Academia|inter|com/rd|540K (p)|-|ko|
+|12|[NSMC](https://github.com/e9t/nsmc)|감성분석(Sentiment analysis)|Academia|doc|com/rd|150K / 50K (s)|-|ko|
+|13|[BEEP!](https://github.com/kocohub/korean-hate-speech)|혐오표현탐지(Hate speech detection)|Academia|inter|com/rd |8K / 500 / 1,000 (s)|-|ko|
+|14|[3i4K](https://github.com/warnikchow/3i4k)|화행분류(Speech act classification) |Academia |inter|com/rd |55K / 6K (s)|-|ko|
+|15|[KorQuAD 1.0](https://korquad.github.io/)|질의응답(QA)|Industry|inter|com/rd (mod-x)|60K / 5K / 4K (p)|-|ko|
+|16|[KorQuAD 2.0](https://korquad.github.io/)|질의응답(QA)|Industry|art|com/rd (mod-x)|80K / 10K / 10K (p)|-|ko|
+|17|[Sci-news-sum-kr](https://github.com/theeluwin/sci-news-sum-kr-50)|문서요약(Summarization)|Academia|doc|acad/rd|50 (p)|Eval|ko|
+|18|[sae4K](https://github.com/warnikchow/sae4k)|문서요약(Summarization)|Academia|inter|com/rd|50K (p)|-|ko|Structured argument extraction for Korean|
+|19|[Korean Parallel Corpora](https://github.com/jungyeul/korean-parallel-corpora)|병렬코퍼스(MT)|Academia|inter|com/red(mod-x)|97K (p)|-|ko, en|-|
+|20|[KAIST Translation Evaluation Set](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset2) |병렬코퍼스(MT)| Academia|doc|acad/no|3K (p)|Eval|ko, en|
+|21|[KAIST Chinese-Korean Multilingual Corpus](http://semanticweb.kaist.ac.kr/home/index.php/Corpus9) |병렬코퍼스(MT) |Academia|doc|acad/no|60K (p)|-|ko, zh|
+|22|[Transliteration Dataset](https://github.com/muik/transliteration)|영어-한글 표기 변환기(Transliteration)|Academia |doc|com/rd |35K (p)|-| ko, en|
+|23|[KAIST Transliteration Evaluation Set](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset3)|영어-한글 표기 변환기(Transliteration)|Academia|doc|acad/no|7K (p)|Eval|ko, en|
+|24|[SIGMORPHON G2P](https://sigmorphon.github.io/sharedtasks/2020/task1/) |다중언어의 자소를 음소로 변환(G2P conversion)|Competition |inter|com/rd |3,600 / 450 / 450 (p) |-|ko, en, hy, bg, fr, ka, hi, hu, is, lt, el|
+|25|[PAWS-X](https://github.com/google-research-datasets/paws/tree/master/pawsx) | 유사문장탐지(Paraphrase detection) |Industry|inter|com/rd |5K / 2K / 2K (p)|-|ko, fr, es, de, zh, ja|-|
+|26|[TyDi-QA](https://github.com/google-research-datasets/tydiqa)|QA|Industry|inter|com/rd |11K / 1,698 / 1,722 (p)|-|ko, en, ar, bn, fi, ja, id, sw, ru, te, th|
+|27|[XPersona](https://github.com/HLTCHKUST/Xpersona) |다중언어 대화(Dialog) |Academia |[inter](https://arxiv.org/abs/2003.07568) |com/rd |299 (d) / 4,684 (s)|- |ko, en, it, fr, id, zh, ja|
+|28|[KSS](https://github.com/Kyubyong/kss) |한국어 1인 발화(ASR)|Academia|doc|acad/rd|12+ (h) / 13K (u) / 1 speaker |-|ko |
+|29|[Zeroth](https://github.com/goodatlas/zeroth) |Kaldi 기반의 음성 인식(ASR)|Industry|doc|com/rd|51+ (h) / 27K (s) / 46K (u) / 181 speakers|-|ko|
+|30|[ClovaCall](https://github.com/clovaai/ClovaCall)|음성인식(ASR)|Industry|inter|acad/no|80+ (h) / 60K (u)/ 11K speakers|-|ko|
+|31|[Pansori-TedXKR](https://github.com/yc9701/pansori-tedxkr-corpus)| TEDx음성인식(ASR)|Academia|inter|acad/rd / (mod-x)|3+ (h) / 3K (u)/ 41 speakers|-|ko|
+|32|[ProSem](https://github.com/warnikchow/prosem)|의미를 구별하는 운율 요소(SLU)|Academia|inter|com/rd|6+ (h) / 3,500 (s) / 7K (u) / 2 speakers|-|ko|
 
 
 
-## 7. 시사 데이터
+## 기타 주요 데이터
 
 |번호|데이터 종류| 데이터 설명|          
 |:---:|:-----------------:|:-----------------:|
 |1.|[한국 정치인 뉴스 데이터 세트](https://github.com/lovit/politician_news_dataset)|-|
 |2|[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음| [:octocat:](https://github.com/akngs/petitions)|-|
-|3|[공공데이터포털 뉴스빅데이터](https://www.data.go.kr/dataset/15012945/fileData.do) |뉴스 데이터 'Kinds' 기반 분석 자료, 기사 메타 제공|
-
-## 8. 기타 데이터
-|번호|데이터 종류| 데이터 설명|          
-|:---:|:-----------------:|:-----------------:|
-|1|[챗봇용 대화 응답 세트](https://github.com/songys/Chatbot_data)|챗봇용 응답 쌍과 긍부정 태깅|
-|2|[영화추천시스템을 위한 데이터 세트](https://github.com/lovit/kmrd)|Synthetic dataset for recommender system created with Naver Movie rating system|
-|3|[욕설데이터 세트](https://github.com/2runo/Curse-detection-data)|문장의 욕설 여부를 분류한 데이터 세트|
-|4|[학습용 뉴스 댓글 데이터](https://www.kaggle.com/junbumlee/kcbert-pretraining-corpus-korean-news-comments)|BERT 모델과 학습에 이용한 11.62G 데이터를 모두 공개| 
+|3|[공공데이터포털 뉴스빅데이터](https://www.data.go.kr/dataset/15012945/fileData.do) |뉴스 데이터 'Kinds' 기반 분석 자료, 기사 메타 제공|      
+|4|[챗봇용 대화 응답 세트](https://github.com/songys/Chatbot_data)|챗봇용 응답 쌍과 긍부정 태깅|
+|5|[영화추천시스템을 위한 데이터 세트](https://github.com/lovit/kmrd)|Synthetic dataset for recommender system created with Naver Movie rating system|
+|6|[욕설데이터 세트](https://github.com/2runo/Curse-detection-data)|문장의 욕설 여부를 분류한 데이터 세트|
+|7|[학습용 뉴스 댓글 데이터](https://www.kaggle.com/junbumlee/kcbert-pretraining-corpus-korean-news-comments)|BERT 모델과 학습에 이용한 11.62G 데이터를 모두 공개|   
+|8|[AMR](https://github.com/choe-hyonsu-gabrielle/korean-amr-corpus)|[문서요약에 대한 지침](https://github.com/choe-hyonsu-gabrielle/korean-amr-guidelines)과 데이터 세트
 
 
 # 국가적 규모에서 구축한 데이터
