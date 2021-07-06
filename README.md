@@ -30,31 +30,30 @@
 |5|[KMOU NER](https://github.com/kmounlp/NER)|개체명인식| Academia|art|acad/rd|24K (s)|-|ko|
 |6|[AIR x NAVER NER](http://air.changwon.ac.kr/?page_id=10)|개체명인식|Competition|doc|acad/no|90K (s)|-|ko|
 |7|[AIR x NAVER SRL](http://air.changwon.ac.kr/?page_id=14)| 의미역 결정(Semantic Role Labeling)|Competition|doc|acad/no|35K (s)|-|ko|
-|8|[Question Pair](https://github.com/songys/Question_pair)|유사문장탐지|Academia|doc|com/rd|10K (p)|-|ko|
-|9|[KorNLI](https://github.com/kakaobrain/KorNLUDatasets)|자연처 추론(Natural Language Inference)|Industry|inter|com/rd |1,000K (p)|-|ko|
-|10|[KorSTS](https://github.com/kakaobrain/KorNLUDatasets)|유사문장탐지(Semantic Textual Similarity)|Industry|[inter](https://arxiv.org/abs/2004.03289)|com/rd|8,500 (p)|-|ko |
-|11|[ParaKQC](https://github.com/warnikchow/ParaKQC)|유사문장판별(STS)|Academia|inter|com/rd|540K (p)|-|ko|
-|12|[NSMC](https://github.com/e9t/nsmc)|감성분석(Sentiment analysis)|Academia|doc|com/rd|150K / 50K (s)|-|ko|
-|13|[BEEP!](https://github.com/kocohub/korean-hate-speech)|혐오표현탐지(Hate speech detection)|Academia|inter|com/rd |8K / 500 / 1,000 (s)|-|ko|
-|14|[3i4K](https://github.com/warnikchow/3i4k)|화행분류(Speech act classification) |Academia |inter|com/rd |55K / 6K (s)|-|ko|
-|15|[KorQuAD 1.0](https://korquad.github.io/)|질의응답(QA)|Industry|inter|com/rd (mod-x)|60K / 5K / 4K (p)|-|ko|
-|16|[KorQuAD 2.0](https://korquad.github.io/)|질의응답(QA)|Industry|art|com/rd (mod-x)|80K / 10K / 10K (p)|-|ko|
-|17|[Sci-news-sum-kr](https://github.com/theeluwin/sci-news-sum-kr-50)|문서요약(Summarization)|Academia|doc|acad/rd|50 (p)|Eval|ko|
-|18|[sae4K](https://github.com/warnikchow/sae4k)|문서요약(Summarization)|Academia|inter|com/rd|50K (p)|-|ko|Structured argument extraction for Korean|
-|19|[Korean Parallel Corpora](https://github.com/jungyeul/korean-parallel-corpora)|병렬코퍼스(MT)|Academia|inter|com/red(mod-x)|97K (p)|-|ko, en|-|
-|20|[KAIST Translation Evaluation Set](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset2) |병렬코퍼스(MT)| Academia|doc|acad/no|3K (p)|Eval|ko, en|
-|21|[KAIST Chinese-Korean Multilingual Corpus](http://semanticweb.kaist.ac.kr/home/index.php/Corpus9) |병렬코퍼스(MT) |Academia|doc|acad/no|60K (p)|-|ko, zh|
-|22|[Transliteration Dataset](https://github.com/muik/transliteration)|영어-한글 표기 변환기(Transliteration)|Academia |doc|com/rd |35K (p)|-| ko, en|
-|23|[KAIST Transliteration Evaluation Set](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset3)|영어-한글 표기 변환기(Transliteration)|Academia|doc|acad/no|7K (p)|Eval|ko, en|
-|24|[SIGMORPHON G2P](https://sigmorphon.github.io/sharedtasks/2020/task1/) |다중언어의 자소를 음소로 변환(G2P conversion)|Competition |inter|com/rd |3,600 / 450 / 450 (p) |-|ko, en, hy, bg, fr, ka, hi, hu, is, lt, el|
-|25|[PAWS-X](https://github.com/google-research-datasets/paws/tree/master/pawsx) | 유사문장탐지(Paraphrase detection) |Industry|inter|com/rd |5K / 2K / 2K (p)|-|ko, fr, es, de, zh, ja|-|
-|26|[TyDi-QA](https://github.com/google-research-datasets/tydiqa)|QA|Industry|inter|com/rd |11K / 1,698 / 1,722 (p)|-|ko, en, ar, bn, fi, ja, id, sw, ru, te, th|
-|27|[XPersona](https://github.com/HLTCHKUST/Xpersona) |다중언어 대화(Dialog) |Academia |[inter](https://arxiv.org/abs/2003.07568) |com/rd |299 (d) / 4,684 (s)|- |ko, en, it, fr, id, zh, ja|
-|28|[KSS](https://github.com/Kyubyong/kss) |한국어 1인 발화(ASR)|Academia|doc|acad/rd|12+ (h) / 13K (u) / 1 speaker |-|ko |
-|29|[Zeroth](https://github.com/goodatlas/zeroth) |Kaldi 기반의 음성 인식(ASR)|Industry|doc|com/rd|51+ (h) / 27K (s) / 46K (u) / 181 speakers|-|ko|
-|30|[ClovaCall](https://github.com/clovaai/ClovaCall)|음성인식(ASR)|Industry|inter|acad/no|80+ (h) / 60K (u)/ 11K speakers|-|ko|
-|31|[Pansori-TedXKR](https://github.com/yc9701/pansori-tedxkr-corpus)| TEDx음성인식(ASR)|Academia|inter|acad/rd / (mod-x)|3+ (h) / 3K (u)/ 41 speakers|-|ko|
-|32|[ProSem](https://github.com/warnikchow/prosem)|의미를 구별하는 운율 요소(SLU)|Academia|inter|com/rd|6+ (h) / 3,500 (s) / 7K (u) / 2 speakers|-|ko|
+|8|[KorNLI](https://github.com/kakaobrain/KorNLUDatasets)|자연처 추론(Natural Language Inference)|Industry|inter|com/rd |1,000K (p)|-|ko|
+|9|[KorSTS](https://github.com/kakaobrain/KorNLUDatasets)|유사문장탐지(Semantic Textual Similarity)|Industry|[inter](https://arxiv.org/abs/2004.03289)|com/rd|8,500 (p)|-|ko |
+|10|[ParaKQC](https://github.com/warnikchow/ParaKQC)|유사문장판별(STS)|Academia|inter|com/rd|540K (p)|-|ko|
+|11|[NSMC](https://github.com/e9t/nsmc)|감성분석(Sentiment analysis)|Academia|doc|com/rd|150K / 50K (s)|-|ko|
+|12|[BEEP!](https://github.com/kocohub/korean-hate-speech)|혐오표현탐지(Hate speech detection)|Academia|inter|com/rd |8K / 500 / 1,000 (s)|-|ko|
+|13|[3i4K](https://github.com/warnikchow/3i4k)|화행분류(Speech act classification) |Academia |inter|com/rd |55K / 6K (s)|-|ko|
+|14|[KorQuAD 1.0](https://korquad.github.io/)|질의응답(QA)|Industry|inter|com/rd (mod-x)|60K / 5K / 4K (p)|-|ko|
+|15|[KorQuAD 2.0](https://korquad.github.io/)|질의응답(QA)|Industry|art|com/rd (mod-x)|80K / 10K / 10K (p)|-|ko|
+|16|[Sci-news-sum-kr](https://github.com/theeluwin/sci-news-sum-kr-50)|문서요약(Summarization)|Academia|doc|acad/rd|50 (p)|Eval|ko|
+|17|[sae4K](https://github.com/warnikchow/sae4k)|문서요약(Summarization)|Academia|inter|com/rd|50K (p)|-|ko|Structured argument extraction for Korean|
+|18|[Korean Parallel Corpora](https://github.com/jungyeul/korean-parallel-corpora)|병렬코퍼스(MT)|Academia|inter|com/red(mod-x)|97K (p)|-|ko, en|-|
+|19|[KAIST Translation Evaluation Set](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset2) |병렬코퍼스(MT)| Academia|doc|acad/no|3K (p)|Eval|ko, en|
+|20|[KAIST Chinese-Korean Multilingual Corpus](http://semanticweb.kaist.ac.kr/home/index.php/Corpus9) |병렬코퍼스(MT) |Academia|doc|acad/no|60K (p)|-|ko, zh|
+|21|[Transliteration Dataset](https://github.com/muik/transliteration)|영어-한글 표기 변환기(Transliteration)|Academia |doc|com/rd |35K (p)|-| ko, en|
+|22|[KAIST Transliteration Evaluation Set](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset3)|영어-한글 표기 변환기(Transliteration)|Academia|doc|acad/no|7K (p)|Eval|ko, en|
+|23|[SIGMORPHON G2P](https://sigmorphon.github.io/sharedtasks/2020/task1/) |다중언어의 자소를 음소로 변환(G2P conversion)|Competition |inter|com/rd |3,600 / 450 / 450 (p) |-|ko, en, hy, bg, fr, ka, hi, hu, is, lt, el|
+|24|[PAWS-X](https://github.com/google-research-datasets/paws/tree/master/pawsx) | 유사문장탐지(Paraphrase detection) |Industry|inter|com/rd |5K / 2K / 2K (p)|-|ko, fr, es, de, zh, ja|-|
+|25|[TyDi-QA](https://github.com/google-research-datasets/tydiqa)|QA|Industry|inter|com/rd |11K / 1,698 / 1,722 (p)|-|ko, en, ar, bn, fi, ja, id, sw, ru, te, th|
+|26|[XPersona](https://github.com/HLTCHKUST/Xpersona) |다중언어 대화(Dialog) |Academia |[inter](https://arxiv.org/abs/2003.07568) |com/rd |299 (d) / 4,684 (s)|- |ko, en, it, fr, id, zh, ja|
+|27|[KSS](https://github.com/Kyubyong/kss) |한국어 1인 발화(ASR)|Academia|doc|acad/rd|12+ (h) / 13K (u) / 1 speaker |-|ko |
+|28|[Zeroth](https://github.com/goodatlas/zeroth) |Kaldi 기반의 음성 인식(ASR)|Industry|doc|com/rd|51+ (h) / 27K (s) / 46K (u) / 181 speakers|-|ko|
+|29|[ClovaCall](https://github.com/clovaai/ClovaCall)|음성인식(ASR)|Industry|inter|acad/no|80+ (h) / 60K (u)/ 11K speakers|-|ko|
+|30|[Pansori-TedXKR](https://github.com/yc9701/pansori-tedxkr-corpus)| TEDx음성인식(ASR)|Academia|inter|acad/rd / (mod-x)|3+ (h) / 3K (u)/ 41 speakers|-|ko|
+|31|[ProSem](https://github.com/warnikchow/prosem)|의미를 구별하는 운율 요소(SLU)|Academia|inter|com/rd|6+ (h) / 3,500 (s) / 7K (u) / 2 speakers|-|ko|
 
 
 
