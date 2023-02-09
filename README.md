@@ -54,7 +54,7 @@
 |29|[ClovaCall](https://github.com/clovaai/ClovaCall)|음성인식(ASR)|Industry|inter|acad/no|80+ (h) / 60K (u)/ 11K speakers|-|ko|
 |30|[Pansori-TedXKR](https://github.com/yc9701/pansori-tedxkr-corpus)| TEDx음성인식(ASR)|Academia|inter|acad/rd / (mod-x)|3+ (h) / 3K (u)/ 41 speakers|-|ko|
 |31|[ProSem](https://github.com/warnikchow/prosem)|의미를 구별하는 운율 요소(SLU)|Academia|inter|com/rd|6+ (h) / 3,500 (s) / 7K (u) / 2 speakers|-|ko|
-
+|32|[OASYS](https://github.com/kakaoenterprise/OASYS)|문장으로부터 트리플 (지식그래프 추출 하는 데이터셋)|Industry|inter|com/rd|465K|-|ko|
 
 
 ## 기타 주요 데이터
