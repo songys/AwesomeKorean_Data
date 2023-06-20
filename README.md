@@ -61,7 +61,7 @@
 |[KAIST Chinese-Korean Multilingual Corpus](http://semanticweb.kaist.ac.kr/home/index.php/Corpus9)|기계번역|Academia|docu|academic|no|0|60K (p)|
 |[Transliteration Dataset](https://github.com/muik/transliteration)|영한기계번역|Academia|docu|all|rd|0|35K (p)|
 |[KAIST Transliteration Evaluation Set](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset3)|기계번역|Academia|docu|academic|no|0|7K (p)|
-|[SIGMORPHON G2P](https://sigmorphon.github.io/sharedtasks/2020/task1/)|G2P conversion|다중언어의 자소를 음소로 변환(|int'l|all|rd|0|3.6K/ 0.45K / 0.45K (p)|
+|[SIGMORPHON G2P](https://sigmorphon.github.io/sharedtasks/2020/task1/)|다중언어의 자소를 음소로 변환|Competition|int'l|all|rd|0|3.6K/ 0.45K / 0.45K (p)|
 |[PAWS-X](https://github.com/google-research-datasets/paws/tree/master/pawsx)|유사문장판별|Industry|int'l|all|rd|0|5K / 2K / 2K (p)|
 |[TyDi-QA](https://github.com/google-research-datasets/tydiqa)|질의응답|Industry|int'l|all|rd|0|11K / 1,7K / 1,7K(p)|
 |[XPersona](https://github.com/HLTCHKUST/Xpersona)|다중언어 대화|Academia|int'l|all|rd|0|0.3K(d) / 4.7K (s)|
