@@ -21,55 +21,78 @@
 - Internationally available publication(inter) 
 
 
-|No.|Dataset|Typical Usage|Provider|Docu.|License|Volume|Goal|Lang.|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|1|[KAIST Morpho-Syntactically Annotated Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus)|형태분석|Academia|art|acad/no|70M (w)| - |ko|
-|2|[KAIST Korean Tree-Tagging Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus)|구문분석|Academia|inter|acad/no|30K (s)|-|ko|
-|3|[UD Korean KAIST](https://github.com/emorynlp/ud-korean)|의존구문분석|Academia|inter|acad/rd|27K (s)|-|ko|
-|4|[PKT-UD](https://github.com/emorynlp/ud-korean)|의존구문분석|Academia|inter|acad/no|5K (s)|-|ko|
-|5|[KMOU NER](https://github.com/kmounlp/NER)|개체명인식| Academia|art|acad/rd|24K (s)|-|ko|
-|6|[AIR x NAVER NER](http://air.changwon.ac.kr/?page_id=10)|개체명인식|Competition|doc|acad/no|90K (s)|-|ko|
-|7|[AIR x NAVER SRL](http://air.changwon.ac.kr/?page_id=14)| 의미역 결정(Semantic Role Labeling)|Competition|doc|acad/no|35K (s)|-|ko|
-|8|[KorNLI](https://github.com/kakaobrain/KorNLUDatasets)|자연처 추론(Natural Language Inference)|Industry|inter|com/rd |1,000K (p)|-|ko|
-|9|[KorSTS](https://github.com/kakaobrain/KorNLUDatasets)|유사문장탐지(Semantic Textual Similarity)|Industry|[inter](https://arxiv.org/abs/2004.03289)|com/rd|8,500 (p)|-|ko |
-|10|[ParaKQC](https://github.com/warnikchow/ParaKQC)|유사문장판별(STS)|Academia|inter|com/rd|540K (p)|-|ko|
-|11|[NSMC](https://github.com/e9t/nsmc)|감성분석(Sentiment analysis)|Academia|doc|com/rd|150K / 50K (s)|-|ko|
-|12|[BEEP!](https://github.com/kocohub/korean-hate-speech)|혐오표현탐지(Hate speech detection)|Academia|inter|com/rd |8K / 500 / 1,000 (s)|-|ko|
-|13|[3i4K](https://github.com/warnikchow/3i4k)|화행분류(Speech act classification) |Academia |inter|com/rd |55K / 6K (s)|-|ko|
-|14|[KorQuAD 1.0](https://korquad.github.io/)|질의응답(QA)|Industry|inter|com/rd (mod-x)|60K / 5K / 4K (p)|-|ko|
-|15|[KorQuAD 2.0](https://korquad.github.io/)|질의응답(QA)|Industry|art|com/rd (mod-x)|80K / 10K / 10K (p)|-|ko|
-|16|[Sci-news-sum-kr](https://github.com/theeluwin/sci-news-sum-kr-50)|문서요약(Summarization)|Academia|doc|acad/rd|50 (p)|Eval|ko|
-|17|[sae4K](https://github.com/warnikchow/sae4k)|문서요약(Summarization)|Academia|inter|com/rd|50K (p)|-|ko|Structured argument extraction for Korean|
-|18|[Korean Parallel Corpora](https://github.com/jungyeul/korean-parallel-corpora)|병렬코퍼스(MT)|Academia|inter|com/red(mod-x)|97K (p)|-|ko, en|-|
-|19|[KAIST Translation Evaluation Set](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset2) |병렬코퍼스(MT)| Academia|doc|acad/no|3K (p)|Eval|ko, en|
-|20|[KAIST Chinese-Korean Multilingual Corpus](http://semanticweb.kaist.ac.kr/home/index.php/Corpus9) |병렬코퍼스(MT) |Academia|doc|acad/no|60K (p)|-|ko, zh|
-|21|[Transliteration Dataset](https://github.com/muik/transliteration)|영어-한글 표기 변환기(Transliteration)|Academia |doc|com/rd |35K (p)|-| ko, en|
-|22|[KAIST Transliteration Evaluation Set](http://semanticweb.kaist.ac.kr/home/index.php/Evaluateset3)|영어-한글 표기 변환기(Transliteration)|Academia|doc|acad/no|7K (p)|Eval|ko, en|
-|23|[SIGMORPHON G2P](https://sigmorphon.github.io/sharedtasks/2020/task1/) |다중언어의 자소를 음소로 변환(G2P conversion)|Competition |inter|com/rd |3,600 / 450 / 450 (p) |-|ko, en, hy, bg, fr, ka, hi, hu, is, lt, el|
-|24|[PAWS-X](https://github.com/google-research-datasets/paws/tree/master/pawsx) | 유사문장탐지(Paraphrase detection) |Industry|inter|com/rd |5K / 2K / 2K (p)|-|ko, fr, es, de, zh, ja|-|
-|25|[TyDi-QA](https://github.com/google-research-datasets/tydiqa)|QA|Industry|inter|com/rd |11K / 1,698 / 1,722 (p)|-|ko, en, ar, bn, fi, ja, id, sw, ru, te, th|
-|26|[XPersona](https://github.com/HLTCHKUST/Xpersona) |다중언어 대화(Dialog) |Academia |[inter](https://arxiv.org/abs/2003.07568) |com/rd |299 (d) / 4,684 (s)|- |ko, en, it, fr, id, zh, ja|
-|27|[KSS](https://github.com/Kyubyong/kss) |한국어 1인 발화(ASR)|Academia|doc|acad/rd|12+ (h) / 13K (u) / 1 speaker |-|ko |
-|28|[Zeroth](https://github.com/goodatlas/zeroth) |Kaldi 기반의 음성 인식(ASR)|Industry|doc|com/rd|51+ (h) / 27K (s) / 46K (u) / 181 speakers|-|ko|
-|29|[ClovaCall](https://github.com/clovaai/ClovaCall)|음성인식(ASR)|Industry|inter|acad/no|80+ (h) / 60K (u)/ 11K speakers|-|ko|
-|30|[Pansori-TedXKR](https://github.com/yc9701/pansori-tedxkr-corpus)| TEDx음성인식(ASR)|Academia|inter|acad/rd / (mod-x)|3+ (h) / 3K (u)/ 41 speakers|-|ko|
-|31|[ProSem](https://github.com/warnikchow/prosem)|의미를 구별하는 운율 요소(SLU)|Academia|inter|com/rd|6+ (h) / 3,500 (s) / 7K (u) / 2 speakers|-|ko|
-
-
+|No.|Dataset|Typical Usage|Provider|Docu.|License|Redist|mod-x|Volume|Goal|Lang.|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+KLUE|Benchmark studies|Industry|int'l|all|rd|0|DP - 15K (s), DST - 10K (d), MRC - 29K (p), NER - 31K (s), NLI - 30K (p), RE - 48K (s), STS - 13K (p), TC - 64K (s)  
+KoBEST|Benchmark studies|Industry|int'l|all|rd|0|BoolQ - 6K (p), COPA - 5K (s), KB-WiC - 6K (s), KB-HellaSwag - 3K (p & s), SentiNeg - 4K (s)
+KAIST Morpho-Syntactically Annotated Corpus|Morphological analysis|Academia|paper|academic|no|0|70M (w)
+OpenKorPOS|Morphological analysis|Academia|int'l|all|rd|0|55M(w)
+KAIST Korean Tree-Tagging Corpus|Tree parsing|Academia|int'l|academic|no|0|30K (s)
+UD Korean KAIST|Dependency parsing|Academia|int'l|academic|no|1|27K (s)
+PKT-UD|Dependency parsing|Academia|int'l|academic|no|0|5K (s)
+KMOU NER|NER|Academia|paper|academic|rd|0|24K (s)
+AIR x NAVER NER|NER|Competition|docu|academic|no|0|90K (s)
+AIR x NAVER SRL|SRL|Competition|docu|academic|no|0|35K (s)
+KoNEC & KoNNEC|NER|Academia|docu|academic|no|0|26K(s)
+Question Pair|Paraphrase detection|Academia|docu|all|rd|0|10K (p)
+KorNLI|NLI|Industry|int'l|all|rd|0|1,000K (p)
+KorSTS|STS|Industry|int'l|all|rd|0|8,500K (p)
+ParaKQC|Paraphrase detection|Academia|int'l|all|rd|0|540K (p)
+StyleKQC|Paraphrase detection|Academia|int'l|all|rd|0|30K(s)
+Korean Smile Style Dataset|Paraphrase detection|Industry|docu|academic|rd|0|2,5K(d)
+NSMC|Sentiment analysis|Academia|docu|all|rd|0|150K / 50K (s)
+Kocasm|Sentiment analysis|Academia|docu|all|rd|0|9K (s)
+BEEP!|Hate speech detection|Academia|int'l|all|rd|0|8K / 0.5K / 1K (s)
+APEACH|Hate speech detection|Academia|int'l|all|rd|0|4K
+Unsmile|Hate speech detection|Industry|docu|academic|rd|0|19K
+HateScore|Hate speech detection|Academia|int'l|academic|rd|1|35K
+KOLD|Hate speech detection|Academia|int'l|all|rd|0|40K
+DKTC|Hate speech detection|Industry|docu|academic|rd|0|1.5K
+K-MHaS|Hate speech detection|Academia|int'l|all|rd|0|109K
+3i4K|Speech act classification|Academia|int'l|all|rd|0|55K / 6K (s)
+KorQuAD 1.0|QA|Industry|int'l|all|rd|1|60K / 5K / 4K (p)
+KorQuAD 2.0|QA|Industry|paper|all|rd|1|80K / 10K / 10K (p)
+HuLiC|Dialog|Industry|docu|academic|rd|0|115K
+OPELA|Dialog|Industry|int'l|academic|rd|0|560K (d)
+Sci-news-sum-kr|Summarization|Academia|docu|academic|rd|0|50K (p)
+sae4K|Summarization|Academia|int'l|all|rd|0|50K (p)
+Korean Parallel Corpora|MT|Academia|int'l|all|rd|1|100K (p)
+KAIST Translation Evaluation Set|MT|Academia|docu|academic|no|0|3K (p)
+KAIST Chinese-Korean Multilingual Corpus|MT|Academia|docu|academic|no|0|60K (p)
+Transliteration Dataset|Transliteration|Academia|docu|all|rd|0|35K (p)
+KAIST Transliteration Evaluation Set|Transliteration|Academia|docu|academic|no|0|7K (p)
+SIGMORPHON G2P|G2P conversion|Competition|int'l|all|rd|0|3.6K/ 0.45K / 0.45K (p)
+PAWS-X|Paraphrase detection|Industry|int'l|all|rd|0|5K / 2K / 2K (p)
+TyDi-QA|QA|Industry|int'l|all|rd|0|11K / 1,7K / 1,7K(p)
+XPersona|Dialog|Academia|int'l|all|rd|0|0.3K(d) / 4.7K (s)
+CareCall|Dialog|Industry|int'l|academic|rd|0|10K
+MultiCoNER|NER|Competition|int'l|all|rd|0|178K / 2.6K (s)
+Multilingual Tweet Intimacy Analysis|Sentiment analysis|Competition|int'l|unk|unk|0|2K(instances)
+IWSLT 2023|MT|Competition|int'l|all|rd|0|3K (p)
+KSS|ASR|Academia|docu|academic|rd|0|12+ (h) / 13K (u) / 1 speaker
+Zeroth|ASR|Industry|docu|all|rd|0|51+ (h) / 27K (s) / 46K (u) / 181 speakers
+ClovaCall|ASR|Industry|int'l|academic|no|0|80+ (h) / 60K (u) / 11K speakers
+Pansori-TedXKR|ASR|Academia|int'l|academic|rd|1|3+ (h) / 3K (u) / 41 speakers
+ProSem|SLU|Academia|int'l|all|rd|0|6+ (h) / 3,500 (s) / 7K (u) / 2 speakers
+kosp2e|Speech translation|Industry|int'l|academic|rd|0|39K(u)
+KoCHET|Other topics|Academia|int'l|academic|rd|0|NER 112K, RE 39K, ET 113K
+KommonGen|Other topics||docu|all|rd|0|79K(s)
+LBox Open|Other topics|Academia|int'l|academic|rd||150K
+K2NLG|Other topics|Academia|int'l|academic|rd|0|4K(s)
+Korean Ambiguity Data|Other topics||int'l|all|rd||35K
+jejueo (JSS & JIT)|Other topics|Industry|int'l|all|rd|0|10K (JSS), 170K (JIT)
+Korean GEC dataset|Other topics|Academia|int'l|academic|rd|0|155K(s pair)
 
 ## 기타 주요 데이터
 
 |번호|데이터 종류| 데이터 설명|          
 |:---:|:-----------------:|:-----------------:|
-|1.|[한국 정치인 뉴스 데이터 세트](https://github.com/lovit/politician_news_dataset)|-|
-|2|[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음| [:octocat:](https://github.com/akngs/petitions)|-|
-|3|[공공데이터포털 뉴스빅데이터](https://www.data.go.kr/dataset/15012945/fileData.do) |뉴스 데이터 'Kinds' 기반 분석 자료, 기사 메타 제공|      
-|4|[챗봇용 대화 응답 세트](https://github.com/songys/Chatbot_data)|챗봇용 응답 쌍과 긍부정 태깅|
-|5|[영화추천시스템을 위한 데이터 세트](https://github.com/lovit/kmrd)|Synthetic dataset for recommender system created with Naver Movie rating system|
-|6|[욕설데이터 세트](https://github.com/2runo/Curse-detection-data)|문장의 욕설 여부를 분류한 데이터 세트|
-|7|[학습용 뉴스 댓글 데이터](https://www.kaggle.com/junbumlee/kcbert-pretraining-corpus-korean-news-comments)|BERT 모델과 학습에 이용한 11.62G 데이터를 모두 공개|   
-|8|[AMR](https://github.com/choe-hyonsu-gabrielle/korean-amr-corpus)|[문서요약에 대한 지침](https://github.com/choe-hyonsu-gabrielle/korean-amr-guidelines)과 데이터 세트|
-|9|[네이버쇼핑, Steam 플랫폼 리뷰 데이터](https://github.com/bab2min/corpus/tree/master/sentiment)|감성분석(Sentiment Analysis)을 위한 제품 별, 게임 별 별점과 후기를 수집한 데이터셋|
+|1|[청와대 국민청원](https://www1.president.go.kr/petitions) 사이트의 [만료된 청원](https://www1.president.go.kr/petitions?only=finished) 데이터 모음| [:octocat:](https://github.com/akngs/petitions)|-|     
+|2|[챗봇용 대화 응답 세트](https://github.com/songys/Chatbot_data)|챗봇용 응답 쌍과 긍부정 태깅|
+|3|[영화추천시스템을 위한 데이터 세트](https://github.com/lovit/kmrd)|Synthetic dataset for recommender system created with Naver Movie rating system|
+|4|[학습용 뉴스 댓글 데이터](https://www.kaggle.com/junbumlee/kcbert-pretraining-corpus-korean-news-comments)|BERT 모델과 학습에 이용한 11.62G 데이터를 모두 공개|   
+|5|[AMR](https://github.com/choe-hyonsu-gabrielle/korean-amr-corpus)|[문서요약에 대한 지침](https://github.com/choe-hyonsu-gabrielle/korean-amr-guidelines)과 데이터 세트|
+|6|[네이버쇼핑, Steam 플랫폼 리뷰 데이터](https://github.com/bab2min/corpus/tree/master/sentiment)|감성분석(Sentiment Analysis)을 위한 제품 별, 게임 별 별점과 후기를 수집한 데이터셋|
 
 
 
@@ -90,9 +113,6 @@
 |5|[국립국어원 모두의 말뭉치](https://corpus.korean.go.kr/)| 다양한 분석 말뭉치(형태소 분석과 구문 분석 말뭉치 등), 다양한 도메인의 말뭉치(문어, 신문, 구어, 웹), 자연어 추론을 위한 말뭉치(유사 문장) 등 다양한 데이터들이 체계적으로 구축되어 있다. 로그인, 메일 인증을 거쳐 데이터를 신청할 수 있고 다운로드 받기 위해서는 연구과제명과  수행기관, 약정 기간 등이 필수 입력 요소이다. |
 
 ![pic](./everyone.png)
-
-
-- 딥러닝이 블랙박스 모델이라고 불리고 있음에도 불구하고 다양한 모델링과 튜닝을 하는 모델러와 데이터 구축에서 서비스까지  뚝딱뚝딱 마법사처럼 만들어 내고 계신 SW 개발자 여러분, 다양한 feature를 찾아내 분석할 수 있는 모든 방법론으로 설명해 주고 계신 분석가, 사람의 언어와 기계의 언어를 이해하려고 노력하는 코퍼스 언어학자 등 남들이 삽질이라고 영역에서 놀라운 창조력을 발휘해 내시는 분들께 감사의 마음과 큰 박수를 보낸다. 
 
 
 
