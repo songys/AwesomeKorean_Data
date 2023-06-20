@@ -22,66 +22,66 @@
 
 
 |No.|Dataset|Typical Usage|Provider|Docu.|License|Redist|mod-x|Volume|Goal|Lang.|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-KLUE|Benchmark studies|Industry|int'l|all|rd|0|DP - 15K (s), DST - 10K (d), MRC - 29K (p), NER - 31K (s), NLI - 30K (p), RE - 48K (s), STS - 13K (p), TC - 64K (s)  
-KoBEST|Benchmark studies|Industry|int'l|all|rd|0|BoolQ - 6K (p), COPA - 5K (s), KB-WiC - 6K (s), KB-HellaSwag - 3K (p & s), SentiNeg - 4K (s)
-KAIST Morpho-Syntactically Annotated Corpus|Morphological analysis|Academia|paper|academic|no|0|70M (w)
-OpenKorPOS|Morphological analysis|Academia|int'l|all|rd|0|55M(w)
-KAIST Korean Tree-Tagging Corpus|Tree parsing|Academia|int'l|academic|no|0|30K (s)
-UD Korean KAIST|Dependency parsing|Academia|int'l|academic|no|1|27K (s)
-PKT-UD|Dependency parsing|Academia|int'l|academic|no|0|5K (s)
-KMOU NER|NER|Academia|paper|academic|rd|0|24K (s)
-AIR x NAVER NER|NER|Competition|docu|academic|no|0|90K (s)
-AIR x NAVER SRL|SRL|Competition|docu|academic|no|0|35K (s)
-KoNEC & KoNNEC|NER|Academia|docu|academic|no|0|26K(s)
-Question Pair|Paraphrase detection|Academia|docu|all|rd|0|10K (p)
-KorNLI|NLI|Industry|int'l|all|rd|0|1,000K (p)
-KorSTS|STS|Industry|int'l|all|rd|0|8,500K (p)
-ParaKQC|Paraphrase detection|Academia|int'l|all|rd|0|540K (p)
-StyleKQC|Paraphrase detection|Academia|int'l|all|rd|0|30K(s)
-Korean Smile Style Dataset|Paraphrase detection|Industry|docu|academic|rd|0|2,5K(d)
-NSMC|Sentiment analysis|Academia|docu|all|rd|0|150K / 50K (s)
-Kocasm|Sentiment analysis|Academia|docu|all|rd|0|9K (s)
-BEEP!|Hate speech detection|Academia|int'l|all|rd|0|8K / 0.5K / 1K (s)
-APEACH|Hate speech detection|Academia|int'l|all|rd|0|4K
-Unsmile|Hate speech detection|Industry|docu|academic|rd|0|19K
-HateScore|Hate speech detection|Academia|int'l|academic|rd|1|35K
-KOLD|Hate speech detection|Academia|int'l|all|rd|0|40K
-DKTC|Hate speech detection|Industry|docu|academic|rd|0|1.5K
-K-MHaS|Hate speech detection|Academia|int'l|all|rd|0|109K
-3i4K|Speech act classification|Academia|int'l|all|rd|0|55K / 6K (s)
-KorQuAD 1.0|QA|Industry|int'l|all|rd|1|60K / 5K / 4K (p)
-KorQuAD 2.0|QA|Industry|paper|all|rd|1|80K / 10K / 10K (p)
-HuLiC|Dialog|Industry|docu|academic|rd|0|115K
-OPELA|Dialog|Industry|int'l|academic|rd|0|560K (d)
-Sci-news-sum-kr|Summarization|Academia|docu|academic|rd|0|50K (p)
-sae4K|Summarization|Academia|int'l|all|rd|0|50K (p)
-Korean Parallel Corpora|MT|Academia|int'l|all|rd|1|100K (p)
-KAIST Translation Evaluation Set|MT|Academia|docu|academic|no|0|3K (p)
-KAIST Chinese-Korean Multilingual Corpus|MT|Academia|docu|academic|no|0|60K (p)
-Transliteration Dataset|Transliteration|Academia|docu|all|rd|0|35K (p)
-KAIST Transliteration Evaluation Set|Transliteration|Academia|docu|academic|no|0|7K (p)
-SIGMORPHON G2P|G2P conversion|Competition|int'l|all|rd|0|3.6K/ 0.45K / 0.45K (p)
-PAWS-X|Paraphrase detection|Industry|int'l|all|rd|0|5K / 2K / 2K (p)
-TyDi-QA|QA|Industry|int'l|all|rd|0|11K / 1,7K / 1,7K(p)
-XPersona|Dialog|Academia|int'l|all|rd|0|0.3K(d) / 4.7K (s)
-CareCall|Dialog|Industry|int'l|academic|rd|0|10K
-MultiCoNER|NER|Competition|int'l|all|rd|0|178K / 2.6K (s)
-Multilingual Tweet Intimacy Analysis|Sentiment analysis|Competition|int'l|unk|unk|0|2K(instances)
-IWSLT 2023|MT|Competition|int'l|all|rd|0|3K (p)
-KSS|ASR|Academia|docu|academic|rd|0|12+ (h) / 13K (u) / 1 speaker
-Zeroth|ASR|Industry|docu|all|rd|0|51+ (h) / 27K (s) / 46K (u) / 181 speakers
-ClovaCall|ASR|Industry|int'l|academic|no|0|80+ (h) / 60K (u) / 11K speakers
-Pansori-TedXKR|ASR|Academia|int'l|academic|rd|1|3+ (h) / 3K (u) / 41 speakers
-ProSem|SLU|Academia|int'l|all|rd|0|6+ (h) / 3,500 (s) / 7K (u) / 2 speakers
-kosp2e|Speech translation|Industry|int'l|academic|rd|0|39K(u)
-KoCHET|Other topics|Academia|int'l|academic|rd|0|NER 112K, RE 39K, ET 113K
-KommonGen|Other topics||docu|all|rd|0|79K(s)
-LBox Open|Other topics|Academia|int'l|academic|rd||150K
-K2NLG|Other topics|Academia|int'l|academic|rd|0|4K(s)
-Korean Ambiguity Data|Other topics||int'l|all|rd||35K
-jejueo (JSS & JIT)|Other topics|Industry|int'l|all|rd|0|10K (JSS), 170K (JIT)
-Korean GEC dataset|Other topics|Academia|int'l|academic|rd|0|155K(s pair)
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|KLUE|Benchmark studies|Industry|int'l|all|rd|0|DP - 15K (s), DST - 10K (d), MRC - 29K (p), NER - 31K (s), NLI - 30K (p), RE - 48K (s), STS - 13K (p), TC - 64K (s) |
+|KoBEST|Benchmark studies|Industry|int'l|all|rd|0|BoolQ - 6K (p), COPA - 5K (s), KB-WiC - 6K (s), KB-HellaSwag - 3K (p & s), SentiNeg - 4K (s)|
+|KAIST Morpho-Syntactically Annotated Corpus|Morphological analysis|Academia|paper|academic|no|0|70M (w)|
+|OpenKorPOS|Morphological analysis|Academia|int'l|all|rd|0|55M(w)|
+|KAIST Korean Tree-Tagging Corpus|Tree parsing|Academia|int'l|academic|no|0|30K (s)|
+|UD Korean KAIST|Dependency parsing|Academia|int'l|academic|no|1|27K (s)|
+|PKT-UD|Dependency parsing|Academia|int'l|academic|no|0|5K (s)|
+|KMOU NER|NER|Academia|paper|academic|rd|0|24K (s)|
+|AIR x NAVER NER|NER|Competition|docu|academic|no|0|90K (s)|
+|AIR x NAVER SRL|SRL|Competition|docu|academic|no|0|35K (s)|
+|KoNEC & KoNNEC|NER|Academia|docu|academic|no|0|26K(s)|
+|Question Pair|Paraphrase detection|Academia|docu|all|rd|0|10K (p)|
+|KorNLI|NLI|Industry|int'l|all|rd|0|1,000K (p)|
+|KorSTS|STS|Industry|int'l|all|rd|0|8,500K (p)|
+|ParaKQC|Paraphrase detection|Academia|int'l|all|rd|0|540K (p)|
+|StyleKQC|Paraphrase detection|Academia|int'l|all|rd|0|30K(s)|
+|Korean Smile Style Dataset|Paraphrase detection|Industry|docu|academic|rd|0|2,5K(d)|
+|NSMC|Sentiment analysis|Academia|docu|all|rd|0|150K / 50K (s)|
+|Kocasm|Sentiment analysis|Academia|docu|all|rd|0|9K (s)|
+|BEEP!|Hate speech detection|Academia|int'l|all|rd|0|8K / 0.5K / 1K (s)|
+|APEACH|Hate speech detection|Academia|int'l|all|rd|0|4K|
+|Unsmile|Hate speech detection|Industry|docu|academic|rd|0|19K|
+|HateScore|Hate speech detection|Academia|int'l|academic|rd|1|35K|
+|KOLD|Hate speech detection|Academia|int'l|all|rd|0|40K|
+|DKTC|Hate speech detection|Industry|docu|academic|rd|0|1.5K|
+|K-MHaS|Hate speech detection|Academia|int'l|all|rd|0|109K|
+|3i4K|Speech act classification|Academia|int'l|all|rd|0|55K / 6K (s)|
+|KorQuAD 1.0|QA|Industry|int'l|all|rd|1|60K / 5K / 4K (p)|
+|KorQuAD 2.0|QA|Industry|paper|all|rd|1|80K / 10K / 10K (p)|
+|HuLiC|Dialog|Industry|docu|academic|rd|0|115K|
+|OPELA|Dialog|Industry|int'l|academic|rd|0|560K (d)|
+|Sci-news-sum-kr|Summarization|Academia|docu|academic|rd|0|50K (p)|
+|sae4K|Summarization|Academia|int'l|all|rd|0|50K (p)|
+|Korean Parallel Corpora|MT|Academia|int'l|all|rd|1|100K (p)|
+|KAIST Translation Evaluation Set|MT|Academia|docu|academic|no|0|3K (p)|
+|KAIST Chinese-Korean Multilingual Corpus|MT|Academia|docu|academic|no|0|60K (p)|
+|Transliteration Dataset|Transliteration|Academia|docu|all|rd|0|35K (p)|
+|KAIST Transliteration Evaluation Set|Transliteration|Academia|docu|academic|no|0|7K (p)|
+|SIGMORPHON G2P|G2P conversion|Competition|int'l|all|rd|0|3.6K/ 0.45K / 0.45K (p)|
+|PAWS-X|Paraphrase detection|Industry|int'l|all|rd|0|5K / 2K / 2K (p)|
+|TyDi-QA|QA|Industry|int'l|all|rd|0|11K / 1,7K / 1,7K(p)|
+|XPersona|Dialog|Academia|int'l|all|rd|0|0.3K(d) / 4.7K (s)|
+|CareCall|Dialog|Industry|int'l|academic|rd|0|10K|
+|MultiCoNER|NER|Competition|int'l|all|rd|0|178K / 2.6K (s)|
+|Multilingual Tweet Intimacy Analysis|Sentiment analysis|Competition|int'l|unk|unk|0|2K(instances)|
+|IWSLT 2023|MT|Competition|int'l|all|rd|0|3K (p)|
+|KSS|ASR|Academia|docu|academic|rd|0|12+ (h) / 13K (u) / 1 speaker|
+|Zeroth|ASR|Industry|docu|all|rd|0|51+ (h) / 27K (s) / 46K (u) / 181 speakers|
+|ClovaCall|ASR|Industry|int'l|academic|no|0|80+ (h) / 60K (u) / 11K speakers|
+|Pansori-TedXKR|ASR|Academia|int'l|academic|rd|1|3+ (h) / 3K (u) / 41 speakers|
+|ProSem|SLU|Academia|int'l|all|rd|0|6+ (h) / 3,500 (s) / 7K (u) / 2 speakers|
+|kosp2e|Speech translation|Industry|int'l|academic|rd|0|39K(u)|
+|KoCHET|Other topics|Academia|int'l|academic|rd|0|NER 112K, RE 39K, ET 113K|
+|KommonGen|Other topics||docu|all|rd|0|79K(s)|
+|LBox Open|Other topics|Academia|int'l|academic|rd||150K|
+|K2NLG|Other topics|Academia|int'l|academic|rd|0|4K(s)|
+|Korean Ambiguity Data|Other topics||int'l|all|rd||35K|
+|jejueo (JSS & JIT)|Other topics|Industry|int'l|all|rd|0|10K (JSS), 170K (JIT)|
+|Korean GEC dataset|Other topics|Academia|int'l|academic|rd|0|155K(s pair)|
 
 ## 기타 주요 데이터
 
