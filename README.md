@@ -24,14 +24,14 @@
 |No.|Dataset|Typical Usage|Provider|Docu.|License|Redist|mod-x|Volume|Goal|Lang.|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[KLUE](https://klue-benchmark.com/)|인공지능의 언어 능력 평가|Industry|int'l|all|rd|0|DP - 15K (s), DST - 10K (d), MRC - 29K (p), NER - 31K (s), NLI - 30K (p), RE - 48K (s), STS - 13K (p), TC - 64K (s) |
-|[KoBEST]([https://huggingface.co/datasets/skt/kobest_v1)|인공지능의 언어 능력 평가|Industry|int'l|all|rd|0|BoolQ - 6K (p), COPA - 5K (s), KB-WiC - 6K (s), KB-HellaSwag - 3K (p & s), SentiNeg - 4K (s)|
+|[KoBEST](https://huggingface.co/datasets/skt/kobest_v1)|인공지능의 언어 능력 평가|Industry|int'l|all|rd|0|BoolQ - 6K (p), COPA - 5K (s), KB-WiC - 6K (s), KB-HellaSwag - 3K (p & s), SentiNeg - 4K (s)|
 |[KAIST Morpho-Syntactically Annotated Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus)|형태분석|Academia|paper|academic|no|0|70M (w)|
 |[OpenKorPOS](https://github.com/openkorpos/openkorpos)|형태분석|Academia|int'l|all|rd|0|55M(w)|
 |[KAIST Korean Tree-Tagging Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus)|구문분석|Academia|int'l|academic|no|0|30K (s)|
 |[UD Korean KAIST](https://github.com/emorynlp/ud-korean)|의존구문분석|Academia|int'l|academic|no|1|27K (s)|
 |[PKT-UD](https://github.com/emorynlp/ud-korean)|의존구문분석|Academia|int'l|academic|no|0|5K (s)|
 |[KMOU NER](https://github.com/kmounlp/NER)|개체명|Academia|paper|academic|rd|0|24K (s)|
-|A[IR x NAVER NER](http://air.changwon.ac.kr/?page_id=10)|개체명|Competition|docu|academic|no|0|90K (s)|
+|[AIR x NAVER NER](http://air.changwon.ac.kr/?page_id=10)|개체명|Competition|docu|academic|no|0|90K (s)|
 |[AIR x NAVER SRL](http://air.changwon.ac.kr/?page_id=14)|의미역 결정|Competition|docu|academic|no|0|35K (s)|
 |[KoNEC & KoNNEC](https://github.com/korean-named-entity/konne)|개체명|Academia|docu|academic|no|0|26K(s)|
 |[Question Pair](https://github.com/songys/Question_pair)|유사문장쌍에 대한 구분|Academia|docu|all|rd|0|10K (p)|
