@@ -12,6 +12,8 @@
 - 다양한 전처리 및 다운로더를 포함한 데이터 링크는 다음을 참조 [https://ratsgo.github.io/embedding/preprocess.html](https://ratsgo.github.io/embedding/preprocess.html)      
 
 - 코퍼스 패키지에 많은 관심이 필요합니다! 웹에 공개되어 있는 한국어 텍스트 데이터들을 손쉽게 로딩하고, 이를 이용하여 모델링한 후 evaluation 까지 편하게 수행하는 / 즉 한국어 텍스트 데이터를 위한 huggingface.nlp 작업 중인 페이지는 다음을 참조, [ko-nlp](https://github.com/ko-nlp/Korpora)
+
+- 24년 10월 9일 한글날 기준 허깅페이스에서 2번 이상 다운받은 데이터를 다음 링크 참조 https://github.com/songys/huggingface_KoreanDataset
                                     
 # Open Datasets
 ![network](./network.jpg)
