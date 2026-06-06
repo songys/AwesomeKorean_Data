@@ -143,3 +143,20 @@
 
 저작권 : 국어원이 승인한 이용 범위 내에서만 저작물을 낼 수 있으며 저작물을 내는 경우 국어원의 정보 제공 사실을 명시 필요, 즉 말뭉치 신청시 명시하면 학습에 사용할 수 있음, 그런 경우에도 아이디등을 제외한 텍스트 자체를 재배포 하는 것은 금지됨, AIHUB의 경우 회원 가입 절차 후에 승인을 받는 절차가 간소화되어 있음.   
 
+
+
+## 법령/법률 데이터 (Korean Legal Data)
+
+[MiniLex 7-domain Korean lawdata infrastructure](https://minilex.wellsa.ai) — 한국 공공 법령 7종 통합. 매일 cron 자동 갱신, Git history 출처 추적, MIT 라이선스.
+
+|번호|데이터 종류| 데이터 설명|
+|:---:|:-----------------:|:-----------------:|
+|1|[wellsa-ai/law-kr](https://huggingface.co/datasets/wellsa-ai/law-kr)|현행 법령 5,589개 (조·항·호 구조 markdown). GitHub canonical: [github.com/wellsa-ai/law-kr](https://github.com/wellsa-ai/law-kr)|
+|2|[wellsa-ai/regulate-kr](https://huggingface.co/datasets/wellsa-ai/regulate-kr)|행정규칙 10,765개 (고시·훈령·예규·지침)|
+|3|[wellsa-ai/precedent-kr](https://huggingface.co/datasets/wellsa-ai/precedent-kr)|대법원·하급심 판례 171,014건|
+|4|[wellsa-ai/interpretation-kr](https://huggingface.co/datasets/wellsa-ai/interpretation-kr)|법령해석례 8,728건 (유권해석)|
+|5|[wellsa-ai/constitution-kr](https://huggingface.co/datasets/wellsa-ai/constitution-kr)|헌법재판소 결정례 38,092건|
+|6|[wellsa-ai/localrule-kr](https://huggingface.co/datasets/wellsa-ai/localrule-kr)|자치법규 159,910건 (조례·규칙)|
+|7|[wellsa-ai/treaty-kr](https://huggingface.co/datasets/wellsa-ai/treaty-kr)|조약 6,907건 (양자·다자 1905~2026)|
+
+총 397K+ Markdown 문서, 시민 시나리오 5건 (딥페이크 삭제·임금체불·부당해고·개인정보 유출·스토킹) source-grounded 검증 완료. 운영 데모: [minilex.wellsa.ai](https://minilex.wellsa.ai)
