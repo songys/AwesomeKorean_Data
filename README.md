@@ -30,7 +30,8 @@
 이번 업데이트에서는 2020년부터 2025년까지 공개된 데이터셋을 분야별로 추가하였다.
 
 - Benchmark studies: Open-Ko-LLM, HAE-RAE Bench, KMMLU, KULTURE Bench, KMMLU-Redux/Pro, KoBALT
-- Intention and sentiment: KMRE, ToM-Diary, KEmoFact, KPC-cF, KoCoSa, KOTE, CARBD-Ko, KPoEM
+- Entailment, similarity, paraphrase: KoSEnd
+- Intention and sentiment: KMRE, ToM-Diary, KoCoSa, KOTE, KPoEM
 - Offensive language, fairness and bias (추가된 분야): KoMultiText, K-HATERS, KoSBi, SQuARe, KoBBQ, KCDD, LifeTox
 - QA and dialogue: KorWikiTQ, CLIcK, KoDialogBench, KorNAT, K-MMBench, K-Viscuit, KoSimpleQA, KoPIQA
 - Summarization, translation, transliteration: OPUS-MT ko-en, Naver News Summary, KoreaScience Summary, SSL, KPC, KNOTICED
@@ -38,11 +39,11 @@
 - Speech corpora: OLKAVS, KMSAV
 - Other topics: KorMedMCQA, KBMC, ESG-Kor, KBL, FunctionChat-Bench, KCL, KorMedLawQA
 
-연도별 수록 데이터셋 수는 다음과 같다 (총 100개).
+연도별 수록 데이터셋 수는 다음과 같다 (총 96개).
 
 |연도|2015|2016|2018|2019|2020|2021|2022|2023|2024|2025|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|데이터셋 수|1|3|8|7|11|5|21|10|25|9|
+|데이터셋 수|1|3|8|6|11|5|21|9|23|9|
 
 ## 1. Benchmark studies
 
@@ -71,7 +72,6 @@
 |Dataset|Typical Usage|Provider|Docu.|License|Redist|mod-x|Volume|
 |:---|:---|:---:|:---:|:---:|:---:|:---:|:---|
 |[Question Pair](https://github.com/songys/Question_pair)|Paraphrase detection|Academia|dom.|all|rd|0|10K (p)|
-|Korean PPDB|Paraphrase database|Academia|int'l|unk|unk|0|-|
 |[KorNLI/KorSTS](https://github.com/kakaobrain/KorNLUDatasets)|NLI, STS|Industry|int'l|all|rd|0|KorNLI - 940K train (p), KorSTS - 5.7K train (p)|
 |[ParaKQC](https://github.com/warnikchow/ParaKQC)|Paraphrase detection|Academia|int'l|all|rd|0|540K (p)|
 |[StyleKQC](https://github.com/cynthia/stylekqc)|Style transfer, paraphrase detection|Academia|int'l|all|rd|0|30K (s)|
@@ -86,11 +86,8 @@
 |[Kocasm](https://github.com/SpellOnYou/korean-sarcasm)|Sarcasm detection|Academia|dom.|all|rd|0|9K (s)|
 |[KMRE](https://github.com/passing2961/KMRE)|Emotion classification|Academia|int'l|all|rd|0|-|
 |[ToM-Diary](https://github.com/humanfactorspsych/covid19-tom-empathy-diary)|Theory of mind analysis|Academia|dom.|academic|rd|1|18K diaries, 74K (s)|
-|[KEmoFact](https://www.nature.com/articles/s41598-023-45992-8)|Emotion factor extraction|Academia|int'l|unk|unk|0|-|
-|[KPC-cF](https://anonymous.4open.science/r/KPC-cF-21E8)|Aspect-based sentiment classification|Academia|int'l|academic|rd|0|Kor-SemEval, KR3|
 |[KoCoSa](https://github.com/Yu-billie/KoCoSa_sarcasm_detection)|Sarcasm detection|Academia|int'l|all|rd|0|12.8K (d)|
 |[KOTE](https://github.com/searle-j/KOTE)|Emotion classification|Academia|int'l|academic|rd|1|50K comments, 250K annotations|
-|[CARBD-Ko](https://arxiv.org/abs/2402.15046)|Aspect-based sentiment classification|Academia|int'l|academic|unk|0|-|
 |[KPoEM](https://github.com/AKS-DHLAB/KPoEM)|Emotion detection|Academia|int'l|all|rd|0|-|
 ## 5. Offensive language detection, fairness and bias
 
@@ -165,8 +162,8 @@
 |[ClovaCall](https://github.com/clovaai/ClovaCall)|ASR|Industry|int'l|academic|none|0|80+ (h)|
 |[JIT/JSS](https://github.com/kakaobrain/jejueo)|ASR, TTS|Industry|int'l|all|rd|0|10K (JSS), 170K (JIT)|
 |[kosp2e](https://github.com/warnikchow/kosp2e)|Speech translation|Academia|int'l|academic|rd|0|30K (u)|
-|[OLKAVS](https://arxiv.org/abs/2301.06375)|Audio-visual speech recognition|Academia|int'l|all|rd|0|1,150 (h) audio, 5,750 (h) video|
-|[KMSAV](https://onlinelibrary.wiley.com/doi/10.4218/etrij.2022-0487)|Audio-visual speech recognition|Academia|int'l|academic|rd|1|150 (h) transcribed, 2,000+ (h) untranscribed|
+|[OLKAVS](https://github.com/IIP-Sogang/olkavs-avspeech)|Audio-visual speech recognition|Academia|int'l|all|rd|0|1,150 (h) audio, 5,750 (h) video|
+|[KMSAV](https://github.com/etri/kmsav)|Audio-visual speech recognition|Academia|int'l|academic|rd|1|150 (h) transcribed, 2,000+ (h) untranscribed|
 ## 10. Other topics
 
 |Dataset|Typical Usage|Provider|Docu.|License|Redist|mod-x|Volume|
@@ -178,8 +175,8 @@
 |[Korean GEC dataset](https://github.com/soyoung97/standard_korean_gec)|GEC|Academia|int'l|academic|rd|0|155K (s pair)|
 |[Korean Ambiguity Dataset](https://github.com/bareun-nlp/korean-ambiguity-data)|Word sense disambiguation|Academia|int'l|all|rd|0|35K (s), 8.2K surface forms|
 |[KorMedMCQA](https://huggingface.co/datasets/sean0042/KorMedMCQA)|Medical QA|Academia|int'l|academic|rd|1|7.5K questions|
-|[KBMC](https://arxiv.org/abs/2403.16158)|Medical NER|Academia|int'l|academic|unk|0|-|
-|[ESG-Kor](https://aclanthology.org/2024.findings-emnlp.387/)|ESG information extraction|Academia|int'l|academic|rd|0|119K (s)|
+|[KBMC](https://huggingface.co/datasets/SungJoo/KBMC)|Medical NER|Academia|int'l|all|rd|0|-|
+|[ESG-Kor](https://github.com/nowzer0/ESG-Kor)|ESG information extraction|Academia|int'l|academic|rd|0|119K (s)|
 |[KBL](https://github.com/lbox-kr/kbl)|Legal language understanding|Academia|int'l|academic|rd|0|3.3K exam examples, 150K precedents|
 |[FunctionChat-Bench](https://github.com/kakao/FunctionChat-Bench)|Function calling benchmark|Industry|int'l|all|rd|0|-|
 |[KCL](https://github.com/lbox-kr/kcl)|Legal reasoning|Academia|int'l|academic|rd|1|283 MCQA, 169 essay questions|
@@ -205,8 +202,8 @@
 |1| [우리말샘](https://opendict.korean.go.kr/main)| 이 사전에 대한 설명 [:octocat:](https://github.com/songys/Dictionaries) : 다양한 어휘와 유의어 정보 등을 얻을 수 있는 대사전 : 로그인 후 전체 사전 데이터 다운로드 가능|      
 |2| [NIA 사전](https://kbig.kr/portal/kbig/knowledge/files/bigdata_report.page?bltnNo=10000000016451)|묻지도 따지지도 않고 다음 링크에서 엑셀로 다운로드 가능 |  
 |3| [국립국어원 언어정보나눔터](https://ithub.korean.go.kr/user/total/database/corpusManager.do )| 로그인 후 세종2007 코퍼스나 낭독체 음성 파일 등도 다운로드 가능, 다운 받을 때 간단한 서약에 체크만 하면 되는데 자료의 크기를 작게 나누어 놓아서 여러번 체크해야 한다는 것이 단점 |  
-|4| [AIHub](https://www.aihub.or.kr/)| 텍스트와 음성 멀티모달까지 가장 광범위한 데이터, 로그인 및 사용 목적과 기간을 명시한 사용 신청서 작성 후 허가 메일이 오면(하루 정도 걸린다) 다운로드 가능. 개별 데이터 종류와 분량은 자주 갱신되므로 위 사이트에서 최신 목록을 확인한다. |
-|5| [국립국어원 모두의 말뭉치](https://kli.korean.go.kr/corpus/main/requestMain.do?lang=ko)| 다양한 분석 말뭉치(형태소 분석과 구문 분석 말뭉치 등), 다양한 도메인의 말뭉치(문어, 신문, 구어, 웹), 자연어 추론을 위한 말뭉치(유사 문장) 등 다양한 데이터들이 체계적으로 구축되어 있다. 말뭉치 종류와 분량은 자주 갱신되므로 위 신청 페이지에서 최신 목록을 확인한다. 로그인, 메일 인증을 거쳐 데이터를 신청할 수 있고 다운로드 받기 위해서는 연구과제명과 수행기관, 약정 기간 등이 필수 입력 요소이다. |
+|4| [AIHub](https://www.aihub.or.kr/)| 텍스트와 음성 멀티모달까지 가장 광범위한 데이터, 로그인 및 사용 목적과 기간을 명시한 사용 신청서 작성 후 허가 메일이 오면(하루 정도 걸린다) 다운로드 가능, 개별 데이터 종류·분량은 자주 갱신되므로 위 사이트에서 최신 목록 확인 |
+|5| [국립국어원 모두의 말뭉치](https://kli.korean.go.kr/corpus/main/requestMain.do?lang=ko)| 다양한 분석 말뭉치(형태소 분석과 구문 분석 말뭉치 등), 다양한 도메인의 말뭉치(문어, 신문, 구어, 웹), 자연어 추론을 위한 말뭉치(유사 문장) 등 다양한 데이터들이 체계적으로 구축되어 있다. 말뭉치 종류·분량은 자주 갱신되므로 위 신청 페이지에서 최신 목록 확인, 로그인·메일 인증을 거쳐 데이터를 신청할 수 있고 다운로드 받기 위해서는 연구과제명과 수행기관, 약정 기간 등이 필수 입력 요소이다. |
 
 저작권 : 국어원이 승인한 이용 범위 내에서만 저작물을 낼 수 있으며 저작물을 내는 경우 국어원의 정보 제공 사실을 명시 필요, 즉 말뭉치 신청시 명시하면 학습에 사용할 수 있음, 그런 경우에도 아이디등을 제외한 텍스트 자체를 재배포 하는 것은 금지됨, AIHUB의 경우 회원 가입 절차 후에 승인을 받는 절차가 간소화되어 있음.
 
