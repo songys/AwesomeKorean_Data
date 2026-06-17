@@ -25,6 +25,25 @@
 
 아래 목록은 [Open-korean-corpora](https://github.com/ko-nlp/Open-korean-corpora)의 2026년 6월 업데이트 기준을 따라 나누었다. 각 표의 열은 `Dataset`, `Typical Usage`, `Provider`, `Docu.`, `License`, `Redist`, `mod-x`, `Volume` 순서이다.
 
+### 2026년 6월 업데이트에서 새로 추가한 데이터셋 (2020–2025)
+
+이번 업데이트에서는 2020년부터 2025년까지 공개된 데이터셋을 분야별로 추가하였다.
+
+- Benchmark studies: Open-Ko-LLM, HAE-RAE Bench, KMMLU, KULTURE Bench, KMMLU-Redux/Pro, KoBALT
+- Intention and sentiment: KMRE, ToM-Diary, KEmoFact, KPC-cF, KoCoSa, KOTE, CARBD-Ko, KPoEM
+- Offensive language, fairness and bias (추가된 분야): KoMultiText, K-HATERS, KoSBi, SQuARe, KoBBQ, KCDD, LifeTox
+- QA and dialogue: KorWikiTQ, CLIcK, KoDialogBench, KorNAT, K-MMBench, K-Viscuit, KoSimpleQA, KoPIQA
+- Summarization, translation, transliteration: OPUS-MT ko-en, Naver News Summary, KoreaScience Summary, SSL, KPC, KNOTICED
+- Korean in multilingual corpora: XL-Sum, MASSIVE
+- Speech corpora: OLKAVS, KMSAV
+- Other topics: KorMedMCQA, KBMC, ESG-Kor, KBL, FunctionChat-Bench, KCL, KorMedLawQA
+
+연도별 수록 데이터셋 수는 다음과 같다 (총 100개).
+
+|연도|2015|2016|2018|2019|2020|2021|2022|2023|2024|2025|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|데이터셋 수|1|3|8|7|11|5|21|10|25|9|
+
 ## 1. Benchmark studies
 
 |Dataset|Typical Usage|Provider|Docu.|License|Redist|mod-x|Volume|
