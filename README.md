@@ -233,10 +233,11 @@
         pages = "85--93",
     }
 
-    @article{cho2020open,
+    @article{cho2026open,
         title = "Open {K}orean Corpora: A Practical Report",
         author = "Cho, Won Ik and Moon, Sangwhan and Song, Youngsook",
         journal = "arXiv preprint arXiv:2012.15621",
-        year = "2020",
+        year = "2026",
+        note = "v3, revised 9 Jun. 2026",
         url = "https://arxiv.org/abs/2012.15621",
     }   
